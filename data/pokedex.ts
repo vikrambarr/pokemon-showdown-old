@@ -125,7 +125,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 32,
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["Venusaur-Delta-Mega"],
-		formeOrder: ["Venusaur-Delta-Mega"],
+		formeOrder: ["Venusaur-Delta", "Venusaur-Delta-Mega"],
 	},
 	venusaurdeltamega: {
 		num: 3,
