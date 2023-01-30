@@ -4132,26 +4132,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 3,
 	},
-	spiritcall: {
-		onModifyAtkPriority: 5,
-		onModifyAtk(atk, attacker, defender, move) {
-			if (move.type === 'Ghost' && attacker.hp <= attacker.maxhp / 3) {
-				this.debug('Spirit Call boost');
-				return this.chainModify(1.5);
-			}
-		},
-		onModifySpAPriority: 5,
-		onModifySpA(atk, attacker, defender, move) {
-			if (move.type === 'Ghost' && attacker.hp <= attacker.maxhp / 3) {
-				this.debug('Spirit Call boost');
-				return this.chainModify(1.5);
-			}
-		},
-		name: "Spirit Call",
-		gen: 6,
-		rating: 2,
-		num: 38,
-	},
 	stakeout: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender) {

@@ -46,26 +46,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	charmander: {
 		tier: "LC",
 	},
-	charmanderdelta: {
-		tier: "LC",
-		natDexTier: "INS",
-	},
 	charmeleon: {
 		tier: "NFE",
-	},
-	charmeleondelta: {
-		tier: "NFE",
-		natDexTier: "INS",
 	},
 	charizard: {
 		tier: "UU",
 		doublesTier: "DUU",
 		natDexTier: "RU",
-	},
-	charizarddelta: {
-		tier: "UU",
-		doublesTier: "DUU",
-		natDexTier: "INS",
 	},
 	charizardmegax: {
 		isNonstandard: "Past",
@@ -80,11 +67,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	charizardgmax: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-	},
-	charizarddeltamega: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-		natDexTier: "INS",
 	},
 	squirtle: {
 		isNonstandard: "Past",
