@@ -5859,6 +5859,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUber",
 		natDexTier: "AG",
 	},
+	thrembo: {
+		tier: "Uber",
+		doublesTier: "DUber",
+		natDexTier: "AG",
+	},
 	tinkatink: {
 		tier: "LC",
 	},
