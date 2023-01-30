@@ -6271,44 +6271,44 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
-	// bulbasaurdelta: {
-	// 	isNonstandard: "Custom",
-	// 	tier: "Illegal",
-	// 	natDexTier: "LC",
-	//     },
-	// ivysaurdelta: {
-	// 	isNonstandard: "Custom",
-	// 	tier: "Illegal",
-	// 	natDexTier: "NFE",
-	//     },
-	//     venusaurdelta: {
-	// 	isNonstandard: "Custom",
-	// 	tier: "Illegal",
-	// 	natDexTier: "RU",
-	//     },
-	//     venusaurdeltamega: {
-	// 	isNonstandard: "Custom",
-	// 	tier: "Illegal",
-	// 	natDexTier: "OU",
-	//     },
-	// charmanderdelta: {
-	// 	isNonstandard: "Custom",
-	// 	tier: "Illegal",
-	// 	natDexTier: "LC",
-	//     },
-	// charmeleondelta: {
-	// 	isNonstandard: "Custom",
-	// 	tier: "Illegal",
-	// 	natDexTier: "NFE",
-	//     },
-	//     charizarddelta: {
-	// 	isNonstandard: "Custom",
-	// 	tier: "Illegal",
-	// 	natDexTier: "RU",
-	//     },
-	//     charizarddeltamega: {
-	// 	isNonstandard: "Custom",
-	// 	tier: "Illegal",
-	// 	natDexTier: "OU",
-	//     },
+	bulbasaurdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+	ivysaurdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+		natDexTier: "NFE",
+    },
+    venusaurdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+		natDexTier: "RU",
+    },
+    venusaurdeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+		natDexTier: "OU",
+    },
+	charmanderdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+	charmeleondelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+		natDexTier: "NFE",
+    },
+    charizarddelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+		natDexTier: "RU",
+    },
+    charizarddeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+		natDexTier: "OU",
+    },
 };
