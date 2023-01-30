@@ -4,10 +4,20 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "LC",
 	},
+	bulbasaurdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "INS",
+	},
 	ivysaur: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "NFE",
+	},
+	ivysaurdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "INS",
 	},
 	venusaur: {
 		isNonstandard: "Past",
@@ -23,16 +33,39 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	venusaurdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "INS",
+	},
+	venusaurdeltamega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "INS",
+	},
 	charmander: {
 		tier: "LC",
 	},
+	charmanderdelta: {
+		tier: "LC",
+		natDexTier: "INS",
+	},
 	charmeleon: {
 		tier: "NFE",
+	},
+	charmeleondelta: {
+		tier: "NFE",
+		natDexTier: "INS",
 	},
 	charizard: {
 		tier: "UU",
 		doublesTier: "DUU",
 		natDexTier: "RU",
+	},
+	charizarddelta: {
+		tier: "UU",
+		doublesTier: "DUU",
+		natDexTier: "INS",
 	},
 	charizardmegax: {
 		isNonstandard: "Past",
@@ -47,6 +80,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	charizardgmax: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	charizarddeltamega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "INS",
 	},
 	squirtle: {
 		isNonstandard: "Past",
@@ -6271,44 +6309,4 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
-	bulbasaurdelta: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
-		natDexTier: "LC",
-    },
-	ivysaurdelta: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
-		natDexTier: "NFE",
-    },
-    venusaurdelta: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
-		natDexTier: "RU",
-    },
-    venusaurdeltamega: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
-		natDexTier: "OU",
-    },
-	charmanderdelta: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
-		natDexTier: "LC",
-    },
-	charmeleondelta: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
-		natDexTier: "NFE",
-    },
-    charizarddelta: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
-		natDexTier: "RU",
-    },
-    charizarddeltamega: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
-		natDexTier: "OU",
-    },
 };
