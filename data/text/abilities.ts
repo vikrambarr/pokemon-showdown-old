@@ -686,6 +686,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Ice Scales",
 		shortDesc: "This Pokemon receives 1/2 damage from special attacks.",
 	},
+	fuckyou: {
+		name: "Fuck You",
+		shortDesc: "This Pokemon receives 1/2 damage from physical attacks. Why? Because fuck you.",
+	},
 	illuminate: {
 		name: "Illuminate",
 		shortDesc: "No competitive use.",
