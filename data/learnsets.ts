@@ -58054,7 +58054,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			trick: ["9M"],
 			uturn: ["9M", "9L1"],
 			willowisp: ["9M"],
-			strengthsap: ["9L1"]
+			strengthsap: ["9L1"],
+			mindfuck: ["9L1"]
 		},
 	},
 	minccino: {

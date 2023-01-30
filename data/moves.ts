@@ -18599,6 +18599,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {def: 1}},
 		contestType: "Cute",
 	},
+	mindfuck: {
+		num: 901,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Mind Fuck",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1, heal: 1},
+		onHit(target, source) {
+			if (target.boosts.spa === -6) return false;
+			const spa = target.getStat('spa', false, true);
+			const success = this.boost({spa: -1}, target, source, null, false, true);
+			return !!(this.heal(spa, source, target) || success);
+		},
+		secondary: null,
+		target: "normal",
+		type: "ghost",
+		zMove: {boost: {def: 1}},
+		contestType: "Cute",
+	},
 	stringshot: {
 		num: 81,
 		accuracy: 95,
