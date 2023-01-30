@@ -4,10 +4,20 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "LC",
 	},
+	bulbasaurdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "INS",
+	},
 	ivysaur: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "NFE",
+	},
+	ivysaurdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "INS",
 	},
 	venusaur: {
 		isNonstandard: "Past",
@@ -22,6 +32,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	venusaurgmax: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	venusaurdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "INS",
+	},
+	venusaurdeltamega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "INS",
 	},
 	charmander: {
 		tier: "LC",

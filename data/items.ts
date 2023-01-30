@@ -6899,6 +6899,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1123,
 		gen: 8,
 	},
+	deltavenusaurite: {
+		name: "Delta Venusaurite",
+		spritenum: 752 + 31,
+		megaStone: "Venusaur-Delta-Mega",
+		megaEvolves: "Venusaur-Delta",
+		itemUser: ["Venusaur-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 990,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	venusaurite: {
 		name: "Venusaurite",
 		spritenum: 608,

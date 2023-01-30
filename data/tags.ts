@@ -250,6 +250,10 @@ export const Tags: {[id: string]: TagData} = {
 		name: "ND RU",
 		speciesFilter: species => species.natDexTier === 'RU',
 	},
+	ndi: {
+		name: "ND INS",
+		speciesFilter: species => species.natDexTier === 'INS',
+	},
 
 	// Legality tags
 	past: {
