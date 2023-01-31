@@ -477,6 +477,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 264,
 	},
+	chlorofury: {
+		onStart(pokemon) {
+			pokemon.addVolatile('chlorofury');
+		},
+		onEnd(pokemon) {
+			delete pokemon.volatiles['chlorofury'];
+			this.add('-end', pokemon, 'Chlorofury', '[silent]');
+		},
+		condition: {
+			duration: 2,
+			onStart(pokemon) {
+				if (pokemon.side.totalFainted === 0) return;
+				this.boost({spe: 1, spa: pokemon.side.totalFainted}, pokemon);
+			},
+			onEnd(pokemon) {
+				if (pokemon.side.totalFainted === 0) return;
+				this.boost({spe: -1, spa: -pokemon.side.totalFainted}, pokemon);
+			},
+		},
+		name: "Chlorofury",
+		gen: 6,
+		rating: 3.5,
+		num: 9,
+	},
 	chlorophyll: {
 		onModifySpe(spe, pokemon) {
 			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
@@ -4873,6 +4897,33 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Unburden",
 		rating: 3.5,
 		num: 84,
+	},
+	unleafed: {
+		onStart(pokemon) {
+			pokemon.addVolatile('unleafed');
+		},
+		onEnd(pokemon) {
+			delete pokemon.volatiles['unleafed'];
+			this.add('-end', pokemon, 'Unleafed', '[silent]');
+		},
+		condition: {
+			duration: 2,
+			durationCallback(pokemon) {
+				return pokemon.side.totalFainted + 1;
+			},
+			onStart(pokemon) {
+				if (pokemon.side.totalFainted === 0) return;
+				this.boost({atk: 1, def: 1, spa: 1, spd: 1, spe: 1});
+			},
+			onEnd(pokemon) {
+				if (pokemon.side.totalFainted === 0) return;
+				this.boost({atk: -1, def: -1, spa: -1, spd: -1, spe: -1});
+			},
+		},
+		name: "Unleafed",
+		gen: 6,
+		rating: 2.5,
+		num: 28,
 	},
 	unnerve: {
 		onPreStart(pokemon) {

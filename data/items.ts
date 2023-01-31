@@ -1338,6 +1338,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	deltasunflorite: {
+		name: "Delta Sunflorite",
+		spritenum: 752 + 29,
+		megaStone: "Sunflora-Delta-Mega",
+		megaEvolves: "Sunflora-Delta",
+		itemUser: ["Sunflora-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 988,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltavenusaurite: {
 		name: "Delta Venusaurite",
 		spritenum: 752 + 31,
@@ -5726,6 +5740,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 1109,
 		gen: 8,
+		isNonstandard: "Past",
+	},
+	sunflorite: {
+		name: "Sunflorite",
+		spritenum: 752 + 63,
+		megaStone: "Sunflora-Mega-M",
+		megaEvolves: "Sunflora",
+		itemUser: ["Sunflora"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 965,
+		gen: 6,
 		isNonstandard: "Past",
 	},
 	sunstone: {
