@@ -3838,6 +3838,37 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 32,
 	},
+	shadowcall: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Dark' && attacker.hp <= attacker.maxhp / 3) {
+				this.debug('Shadow Call boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Dark' && attacker.hp <= attacker.maxhp / 3) {
+				this.debug('Shadow Call boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Shadow Call",
+		gen: 6,
+		rating: 2,
+		num: 33,
+	},
+	shadowdance: {
+		onModifySpe(spe, pokemon) {
+			if (this.field.isWeather('newmoon')) {
+				return this.chainModify(2);
+			}
+		},
+		name: "Shadow Dance",
+		gen: 6,
+		rating: 3,
+		num: 34,
+	},
 	shadowshield: {
 		onSourceModifyDamage(damage, source, target, move) {
 			if (target.hp >= target.maxhp) {
