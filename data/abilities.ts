@@ -5132,6 +5132,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 193,
 	},
+	windforce: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Flying') {
+				if (!this.boost({spe: 1})) {
+					this.add('-immune', target, '[from] ability: Wind Force');
+				}
+				return null;
+			}
+		},
+		name: "Wind Force",
+		isBreakable: true,
+		gen: 6,
+		rating: 3,
+		num: 32,
+	},
 	windpower: {
 		onDamagingHitOrder: 1,
 		onDamagingHit(damage, target, source, move) {

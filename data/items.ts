@@ -476,6 +476,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 544,
 		gen: 5,
 	},
+	bisharpite: {
+		name: "Bisharpite",
+		spritenum: 752 + 1,
+		megaStone: "Bisharp-Mega",
+		megaEvolves: "Bisharp",
+		itemUser: ["Bisharp"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 992,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	blackbelt: {
 		name: "Black Belt",
 		spritenum: 32,
@@ -1252,6 +1266,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Clamperl"],
 		num: 226,
 		gen: 3,
+		isNonstandard: "Past",
+	},
+	deltabisharpite: {
+		name: "Delta Bisharpite",
+		spritenum: 752 + 10,
+		megaStone: "Bisharp-Delta-Mega",
+		megaEvolves: "Bisharp-Delta",
+		itemUser: ["Bisharp-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 969,
+		gen: 6,
 		isNonstandard: "Past",
 	},
 	deltablastoisinite: {
