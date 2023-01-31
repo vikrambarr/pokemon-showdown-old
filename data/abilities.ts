@@ -4953,6 +4953,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 260,
 	},
+	vampiric: {
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (move.flags['contact']) {
+				this.heal(pokemon.lastDamage / 4, pokemon);
+			}
+		},
+		name: "Vampiric",
+		gen: 6,
+		rating: 3.5,
+		num: 29,
+	},
 	vesselofruin: {
 		onStart(pokemon) {
 			if (this.suppressingAbility(pokemon)) return;
