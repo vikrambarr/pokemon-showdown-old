@@ -6511,4 +6511,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	budewdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+	roseliadelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "NFE",
+    },
+    roseradedelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+    },
 };

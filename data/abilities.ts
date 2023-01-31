@@ -1718,6 +1718,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0,
 		num: 134,
 	},
+	heliophobia: {
+		onWeather(target, source, effect) {
+			if (effect.id === 'newmoon') {
+				this.heal(target.baseMaxhp / 8);
+			} else if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
+				this.damage(target.baseMaxhp / 8, target, target);
+			}
+		},
+		name: "Heliophobia",
+		gen: 6,
+		rating: 2,
+		num: 14,
+	},
 	honeygather: {
 		name: "Honey Gather",
 		rating: 0,
