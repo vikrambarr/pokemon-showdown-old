@@ -458,7 +458,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		onTryHealPriority: 1,
 		onTryHeal(damage, target, source, effect) {
-			const heals = ['drain', 'leechseed', 'ingrain', 'aquaring', 'strengthsap'];
+			const heals = ['drain', 'leechseed', 'ingrain', 'aquaring', 'strengthsap', 'mindfuck'];
 			if (heals.includes(effect.id)) {
 				return this.chainModify([5324, 4096]);
 			}

@@ -2221,7 +2221,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	liquidooze: {
 		onSourceTryHeal(damage, target, source, effect) {
 			this.debug("Heal is occurring: " + target + " <- " + source + " :: " + effect.id);
-			const canOoze = ['drain', 'leechseed', 'strengthsap'];
+			const canOoze = ['drain', 'leechseed', 'strengthsap', 'mindfuck'];
 			if (canOoze.includes(effect.id)) {
 				this.damage(damage);
 				return 0;
