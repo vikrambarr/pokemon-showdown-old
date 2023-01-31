@@ -1284,7 +1284,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltablastoisinite: {
 		name: "Delta Blastoisinite",
-		spritenum: 752 + 11,
+		spritenum: 583,
 		megaStone: "Blastoise-Delta-Mega",
 		megaEvolves: "Blastoise-Delta",
 		itemUser: ["Blastoise-Delta"],
@@ -1298,7 +1298,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltacharizardite: {
 		name: "Delta Charizardite",
-		spritenum: 752 + 13,
+		spritenum: 585,
 		megaStone: "Charizard-Delta-Mega",
 		megaEvolves: "Charizard-Delta",
 		itemUser: ["Charizard-Delta"],
@@ -1312,7 +1312,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltagalladite: {
 		name: "Delta Galladite",
-		spritenum: 752 + 16,
+		spritenum: 616,
 		megaStone: "Gallade-Delta-Mega",
 		megaEvolves: "Gallade-Delta",
 		itemUser: ["Gallade-Delta"],
@@ -1326,7 +1326,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltagardevoirite: {
 		name: "Delta Gardevoirite",
-		spritenum: 752 + 17,
+		spritenum: 587,
 		megaStone: "Gardevoir-Delta-Mega",
 		megaEvolves: "Gardevoir-Delta",
 		itemUser: ["Gardevoir-Delta"],
@@ -1352,9 +1352,23 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	deltascizorite: {
+		name: "Delta Scizorite",
+		spritenum: 605,
+		megaStone: "Scizor-Delta-Mega",
+		megaEvolves: "Scizor-Delta",
+		itemUser: ["Scizor-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 987,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltavenusaurite: {
 		name: "Delta Venusaurite",
-		spritenum: 752 + 31,
+		spritenum: 608,
 		megaStone: "Venusaur-Delta-Mega",
 		megaEvolves: "Venusaur-Delta",
 		itemUser: ["Venusaur-Delta"],
