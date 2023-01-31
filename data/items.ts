@@ -1254,6 +1254,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 3,
 		isNonstandard: "Past",
 	},
+	deltacharizardite: {
+		name: "Delta Charizardite",
+		spritenum: 752 + 13,
+		megaStone: "Charizard-Delta-Mega",
+		megaEvolves: "Charizard-Delta",
+		itemUser: ["Charizard-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 972,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltavenusaurite: {
 		name: "Delta Venusaurite",
 		spritenum: 752 + 31,

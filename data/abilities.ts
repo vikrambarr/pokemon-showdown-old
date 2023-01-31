@@ -2699,6 +2699,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 256,
 	},
+	noctem: {
+		onStart(source) {
+			this.field.setWeather('newmoon');
+		},
+		name: "Noctem",
+		gen: 6,
+		rating: 4.5,
+		num: 19,
+	},
 	noguard: {
 		onAnyInvulnerabilityPriority: 1,
 		onAnyInvulnerability(target, source, move) {
@@ -4131,6 +4140,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Speed Boost",
 		rating: 4.5,
 		num: 3,
+	},
+	spiritcall: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Ghost' && attacker.hp <= attacker.maxhp / 3) {
+				this.debug('Spirit Call boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Ghost' && attacker.hp <= attacker.maxhp / 3) {
+				this.debug('Spirit Call boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Spirit Call",
+		gen: 6,
+		rating: 2,
+		num: 38,
 	},
 	stakeout: {
 		onModifyAtkPriority: 5,
