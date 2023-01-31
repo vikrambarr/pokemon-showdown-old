@@ -1310,6 +1310,34 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	deltagalladite: {
+		name: "Delta Galladite",
+		spritenum: 752 + 16,
+		megaStone: "Gallade-Delta-Mega",
+		megaEvolves: "Gallade-Delta",
+		itemUser: ["Gallade-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 975,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	deltagardevoirite: {
+		name: "Delta Gardevoirite",
+		spritenum: 752 + 17,
+		megaStone: "Gardevoir-Delta-Mega",
+		megaEvolves: "Gardevoir-Delta",
+		itemUser: ["Gardevoir-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 976,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltavenusaurite: {
 		name: "Delta Venusaurite",
 		spritenum: 752 + 31,
