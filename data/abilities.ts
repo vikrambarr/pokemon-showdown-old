@@ -5032,6 +5032,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 29,
 	},
+	venomous: {
+		onModifyMovePriority: -1,
+		onModifyMove(move) {
+			this.debug('Badly poisoning when poisoning');
+			if (!move.secondaries) move.secondaries = [];
+			for (const secondary of move.secondaries) {
+				if (secondary.status === 'psn') {
+					const toxChance = secondary.chance;
+					secondary.chance = 0;
+					move.secondaries.push({
+						chance: toxChance,
+						status: 'tox',
+					});
+				}
+			}
+			const toxStatus = this.dex.getActiveMove('toxic').status;
+			if (move.status && move.status === 'psn') {
+				move.status = toxStatus;
+			}
+		},
+		name: "Venomous",
+		gen: 6,
+		rating: 2,
+		num: 31,
+	},
 	vesselofruin: {
 		onStart(pokemon) {
 			if (this.suppressingAbility(pokemon)) return;
