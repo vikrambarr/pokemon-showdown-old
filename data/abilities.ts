@@ -4470,6 +4470,36 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 21,
 	},
+	supercell: {
+		onStart(pokemon) {
+			if (this.field.isWeather(['newmoon', 'raindance', 'primordialsea'])) {
+				if (pokemon.species.name === 'Typhlosion-Delta-Mega') pokemon.formeChange('Typhlosion-Delta-Mega-Active', this.effect, false);
+			} else {
+				if (pokemon.species.name === 'Typhlosion-Delta-Mega-Active') pokemon.formeChange('Typhlosion-Delta-Mega', this.effect, false);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (this.field.isWeather(['newmoon', 'raindance', 'primordialsea'])) {
+				return this.chainModify(1.5);
+			}
+		},
+		onUpdate(pokemon) {
+			if (this.field.isWeather(['newmoon', 'raindance', 'primordialsea'])) {
+				if (pokemon.species.name === 'Typhlosion-Delta-Mega') pokemon.formeChange('Typhlosion-Delta-Mega-Active', this.effect, false);
+			} else {
+				if (pokemon.species.name === 'Typhlosion-Delta-Mega-Active') pokemon.formeChange('Typhlosion-Delta-Mega', this.effect, false);
+			}
+		},
+		onEnd(pokemon) {
+			if (pokemon.species.name !== 'Typhlosion-Delta-Mega-Active' || !pokemon.hp) return;
+			pokemon.formeChange('Typhlosion-Delta-Mega', this.effect, false);
+		},
+		name: "Supercell",
+		gen: 6,
+		rating: 2,
+		num: 39,
+	},
 	superluck: {
 		onModifyCritRatio(critRatio) {
 			return critRatio + 1;

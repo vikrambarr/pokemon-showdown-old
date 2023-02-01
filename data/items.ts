@@ -1380,6 +1380,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	deltatyphlosionite: {
+		name: "Delta Typhlosionite",
+		spritenum: 752 + 30,
+		megaStone: "Typhlosion-Delta-Mega",
+		megaEvolves: "Typhlosion-Delta",
+		itemUser: ["Typhlosion-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 989,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltavenusaurite: {
 		name: "Delta Venusaurite",
 		spritenum: 608,
