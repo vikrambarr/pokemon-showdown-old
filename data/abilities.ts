@@ -2096,6 +2096,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 22,
 	},
+	intoxicate: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) &&
+				!(move.isZ && move.category !== 'Status') && !(move.name === 'Tera Blast' && pokemon.terastallized)) {
+				move.type = 'Poison';
+				move.typeChangerBoosted = this.effect;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.typeChangerBoosted === this.effect) return this.chainModify([4915, 4096]);
+		},
+		name: "Intoxicate",
+		rating: 4,
+		num: 16,
+	},
 	intrepidsword: {
 		onStart(pokemon) {
 			if (this.effectState.swordBoost) return;
@@ -2186,6 +2206,65 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Leaf Guard",
 		rating: 0.5,
 		num: 102,
+	},
+	lernean: {
+		onResidualOrder: 29,
+		onResidual(pokemon) {
+			if (!pokemon.baseSpecies.id.includes('hydreigonmega') || !pokemon.species.id.includes('hydreigonmega') || !pokemon.hp) {
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmeganine') return;
+			if (pokemon.hp < (pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Nine', this.effect, true);
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmegaeight') return;
+			if (pokemon.hp < (2 * pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Eight', this.effect, true);
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmegaseven') return;
+			if (pokemon.hp < (3 * pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Seven', this.effect, true);
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmegasix') return;
+			if (pokemon.hp < (4 * pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Six', this.effect, true);
+			}
+		},
+		onPrepareHit(source, target, move) {
+			if (!source.species.id.includes('hydreigonmega')) return;
+			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
+			if ([
+				'dynamaxcannon', 'endeavor', 'fling', 'iceball', 'rollout',
+				'dragonrage', 'sonicboom', 'seismictoss', 'naturalgift'
+			].includes(move.id)) return;
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax) {
+				if (source.species.id === 'hydreigonmeganine') move.multihit = 9;
+				else if (source.species.id === 'hydreigonmegaeight') move.multihit = 8;
+				else if (source.species.id === 'hydreigonmegaseven') move.multihit = 7;
+				else if (source.species.id === 'hydreigonmegasix') move.multihit = 6;
+				else move.multihit = 5;
+				move.multihitType = 'lernean';
+			}
+		},
+		// Damage modifier implemented in BattleActions#modifyDamage()
+		onSourceModifySecondaries(secondaries, target, source, move) {
+			if (move.multihitType === 'lernean' && move.id === 'secretpower' && move.hit < 2) {
+				// hack to prevent accidentally suppressing King's Rock/Razor Fang
+				return secondaries.filter(effect => effect.volatileStatus === 'flinch');
+			}
+		},
+		isPermanent: true,
+		name: "Lernean",
+		gen: 6,
+		rating: 4,
+		num: 18,
 	},
 	levitate: {
 		// airborneness implemented in sim/pokemon.js:Pokemon#isGrounded

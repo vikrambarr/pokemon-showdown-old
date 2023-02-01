@@ -2906,6 +2906,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 172,
 		gen: 3,
 	},
+	hydreigonite: {
+		name: "Hydreigonite",
+		spritenum: 752 + 42,
+		megaStone: "Hydreigon-Mega-Five",
+		megaEvolves: "Hydreigon",
+		itemUser: ["Hydreigon"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 950,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	houndoominite: {
 		name: "Houndoominite",
 		spritenum: 591,

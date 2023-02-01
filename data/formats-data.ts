@@ -6608,6 +6608,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	typhlosiondeltamegaactive: {
 		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
 	},
 	treeckodelta: {
 		isNonstandard: "Past",
@@ -7256,6 +7258,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	emolgadeltafired: {
 		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
 	},
 	karrablastdelta: {
 		isNonstandard: "Past",
@@ -7327,4 +7331,44 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	deinodelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+	zweilousdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "NFE",
+    },
+    hydreigondelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "UU",
+    },
+	hydreigonmegafive: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
+	hydreigonmegasix: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
+	hydreigonmegaseven: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
+	hydreigonmegaeight: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
+	hydreigonmeganine: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
 };
