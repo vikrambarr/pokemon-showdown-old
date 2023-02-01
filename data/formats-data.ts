@@ -6656,4 +6656,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "OU",
     },
+	froakiedelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+	frogadierdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "NFE",
+    },
+    greninjadelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "UU",
+    },
 };
