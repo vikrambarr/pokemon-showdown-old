@@ -10103,7 +10103,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Magmar-Delta",
 		evoType: "trade",
 		eggGroups: ["Undiscovered"],
-	}
+	},
 	togekiss: {
 		num: 468,
 		name: "Togekiss",
