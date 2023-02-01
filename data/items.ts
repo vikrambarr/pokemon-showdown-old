@@ -1352,6 +1352,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	deltafroslassite: {
+		name: "Delta Froslassite",
+		spritenum: 752 + 15,
+		megaStone: "Froslass-Delta-Mega",
+		megaEvolves: "Froslass-Delta",
+		itemUser: ["Froslass-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 974,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltagalladite: {
 		name: "Delta Galladite",
 		spritenum: 616,
@@ -2395,6 +2409,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 497,
 		gen: 2,
 		isPokeball: true,
+	},
+	froslassite: {
+		name: "Froslassite",
+		spritenum: 752 + 39,
+		megaStone: "Froslass-Mega",
+		megaEvolves: "Froslass",
+		itemUser: ["Froslass"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 947,
+		gen: 6,
+		isNonstandard: "Past",
 	},
 	fullincense: {
 		name: "Full Incense",

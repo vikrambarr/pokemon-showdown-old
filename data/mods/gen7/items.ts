@@ -208,6 +208,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	deltafroslassite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	milotite: {
 		inherit: true,
 		isNonstandard: null,
@@ -221,6 +225,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		isNonstandard: null,
 	},
 	reuniclite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	froslassite: {
 		inherit: true,
 		isNonstandard: null,
 	},
