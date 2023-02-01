@@ -2304,6 +2304,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		gen: 6,
 		num: 89,
 		name: "Muk-Delta",
+		baseForme: "Water",
 		types: ["Ground"],
 		baseStats: {hp: 105, atk: 105, def: 75, spa: 65, spd: 100, spe: 50},
 		abilities: {0: "Sap Sipper", 1: "Regurgitation", H: "Water Absorb"},

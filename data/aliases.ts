@@ -450,6 +450,12 @@ export const Aliases: {[alias: string]: string} = {
 	miniorblue: "Minior",
 	miniorindigo: "Minior",
 	miniorviolet: "Minior",
+	mukdeltawater: "Muk-Delta",
+	mukdeltagrass: "Muk-Delta",
+	mukdeltafire: "Muk-Delta",
+	mukdeltadark: "Muk-Delta",
+	mukdeltanormal: "Muk-Delta",
+	mukdeltapsychic: "Muk-Delta",
 	unownb: "Unown",
 	unownc: "Unown",
 	unownd: "Unown",
@@ -1037,7 +1043,7 @@ export const Aliases: {[alias: string]: string} = {
 	vinelash: "G-Max Vine Lash",
 	volcalith: "G-Max Volcalith",
 	voltcrash: "G-Max Volt Crash",
-	wildfire: "G-Max Wildfire",
+	gwildfire: "G-Max Wildfire",
 	windrage: "G-Max Wind Rage",
 
 	// Japanese names
