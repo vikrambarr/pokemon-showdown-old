@@ -124,6 +124,86 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	deltabisharpite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltablastoiseite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltacameruptite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltacharizardite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltaetigirafarigite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltagalladite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltagardevoirite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltaglalitite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltamawilite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltamedichamite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltamilotite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltapidgeotite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltasablenite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltasunflorite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltascizorite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltatyphlosionite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltavenusaurite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	milotite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	shiftrite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	sunflorite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	diancite: {
 		inherit: true,
 		isNonstandard: null,
