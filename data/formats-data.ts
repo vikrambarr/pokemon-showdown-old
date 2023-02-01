@@ -6546,4 +6546,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	wooperdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+    quagsiredelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "RU",
+    },
 };
