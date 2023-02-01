@@ -204,6 +204,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	deltalucarionite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	milotite: {
 		inherit: true,
 		isNonstandard: null,
