@@ -7361,6 +7361,23 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	volcaronadeltaarmor: {
+		name: "Volcarona-Delta Armor",
+		spritenum: 752 + 67,
+		fling: {
+			basePower: 60,
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.baseSpecies === 'Volcarona-Delta') || pokemon.baseSpecies.baseSpecies === 'Volcarona-Delta') {
+				return false;
+			}
+			return true;
+		},
+		forcedForme: "Volcarona-Delta-Armor",
+		itemUser: ["Volcarona-Delta-Armor"],
+		num: 936,
+		gen: 6,
+	},
 	wacanberry: {
 		name: "Wacan Berry",
 		spritenum: 526,
