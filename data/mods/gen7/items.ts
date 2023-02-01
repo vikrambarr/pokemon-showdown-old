@@ -60,6 +60,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
+	bisharpite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	blastoisinite: {
 		inherit: true,
 		isNonstandard: null,
