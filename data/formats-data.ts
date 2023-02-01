@@ -6771,4 +6771,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	dratinidelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+	dragonairdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "NFE",
+    },
+    dragonitedelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+    },
 };
