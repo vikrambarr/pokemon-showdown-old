@@ -474,6 +474,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 66,
 	},
+	blazeboost: {
+		onBeforeMovePriority: 0.5,
+		onBeforeMove(attacker, defender, move) {
+			if (move.category === 'Status') return;
+			if (move.type === 'Fire') {
+				this.boost({spa: 1, atk: 1, spe: 1}, attacker);
+				if (attacker.species.id === 'emolgadelta') {
+					attacker.formeChange('Emolga-Delta-Fired');
+				}
+			}
+		},
+		onDamagingHit(damage, target, source, move) {
+			if (target.species.id !== 'emolgadeltafired') return;
+			if (this.checkMoveMakesContact(move, source, target)) {
+				if (this.randomChance(1, 10)) {
+					source.trySetStatus('brn', target);
+				}
+			}
+		},
+		name: "Blaze Boost",
+		gen: 6,
+		rating: 4,
+		num: 12,
+	},
 	bulletproof: {
 		onTryHit(pokemon, target, move) {
 			if (move.flags['bullet']) {

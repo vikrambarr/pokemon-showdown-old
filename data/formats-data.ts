@@ -7249,4 +7249,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	emolgadelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+    },
+	emolgadeltafired: {
+		isNonstandard: "Unobtainable",
+	},
 };
