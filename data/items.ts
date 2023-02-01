@@ -1310,6 +1310,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	deltaetigirafarigite: {
+		name: "Delta Etigirafarigite",
+		spritenum: 752 + 14,
+		megaStone: "Girafarig-Delta-Mega",
+		megaEvolves: "Girafarig-Delta",
+		itemUser: ["Girafarig-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 973,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltagalladite: {
 		name: "Delta Galladite",
 		spritenum: 616,
@@ -1822,6 +1836,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 208,
 		gen: 3,
 		isNonstandard: "Unobtainable",
+	},
+	etigirafarigite: {
+		name: "Etigirafarigite",
+		spritenum: 752 + 34,
+		megaStone: "Girafarig-Mega",
+		megaEvolves: "Girafarig",
+		itemUser: ["Girafarig"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 973,
+		gen: 6,
+		isNonstandard: "Past",
 	},
 	eviolite: {
 		name: "Eviolite",
