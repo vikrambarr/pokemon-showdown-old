@@ -6596,4 +6596,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "OU",
     },
+	treeckodelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+	grovyledelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "NFE",
+    },
+    sceptiledelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "RU",
+    },
 };
