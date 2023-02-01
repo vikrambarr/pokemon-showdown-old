@@ -3126,6 +3126,22 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 253,
 	},
+	phototroph: {
+		onResidualOrder: 5,
+		onResidualSubOrder: 5,
+		onResidual(pokemon) {
+			if (['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather())) return;
+			if (this.field.isWeather(['sunnyday', 'desolateland'])) {
+				this.heal(pokemon.baseMaxhp / 8);
+			} else {
+				this.heal(pokemon.baseMaxhp / 16);
+			}
+		},
+		name: "Phototroph",
+		gen: 6,
+		rating: 1.5,
+		num: 22,
+	},
 	pickpocket: {
 		onAfterMoveSecondary(target, source, move) {
 			if (source && source !== target && move?.flags['contact']) {
