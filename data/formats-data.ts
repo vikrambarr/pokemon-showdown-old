@@ -6596,6 +6596,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "OU",
     },
+	typhlosiondeltamegaactive: {
+		isNonstandard: "Unobtainable",
+	},
 	treeckodelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
