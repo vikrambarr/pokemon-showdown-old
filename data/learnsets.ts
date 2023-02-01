@@ -22625,6 +22625,18 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 25},
 		],
 	},
+	dittodelta: {
+		learnset: {
+			morph: ["6L1"],
+			retrograde: ["6L1"],
+			transform: ["6L1"],
+			metronome: ["6T", "6L10"],
+			copycat: ["6L20"],
+			mirrormove: ["6L30"],
+			mefirst: ["6L40"],
+			mimic: ["6T", "6L50"],
+		},
+	},
 	eevee: {
 		learnset: {
 			attract: ["8M", "7M", "7V", "6M", "5M", "5S2", "4M", "4S0", "3M"],
