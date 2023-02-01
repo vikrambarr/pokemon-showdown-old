@@ -5053,6 +5053,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 3,
 		isPokeball: true,
 	},
+	reuniclite: {
+		name: "Reuniclite",
+		spritenum: 752 + 55,
+		megaStone: "Reuniclus-Mega",
+		megaEvolves: "Reuniclus",
+		itemUser: ["Reuniclus"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 959,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	ribbonsweet: {
 		name: "Ribbon Sweet",
 		spritenum: 710,

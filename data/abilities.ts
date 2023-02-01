@@ -4936,6 +4936,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 205,
 	},
+	speedswap: {
+		onStart(source) {
+			this.field.addPseudoWeather('trickroom');
+		},
+		name: "Speed Swap",
+		gen: 6,
+		rating: 4.5,
+		num: 40,
+	},
 	truant: {
 		onStart(pokemon) {
 			pokemon.removeVolatile('truant');
