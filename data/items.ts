@@ -1137,6 +1137,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1253,
 		gen: 8,
 	},
+	crystalfragment: {
+		name: "Crystal Fragment",
+		spritenum: 752 + 6,
+		megaStone: "Metagross-Delta-R-Crystal",
+		megaEvolves: "Metagross-Delta-R",
+		itemUser: ["Metagross-Delta-R"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 993,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	custapberry: {
 		name: "Custap Berry",
 		spritenum: 86,
@@ -1405,6 +1419,34 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		num: 981,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	deltametagrossiteruin: {
+		name: "Delta Metagrossite Ruin",
+		spritenum: 752 + 23,
+		megaStone: "Metagross-Delta-R-Mega",
+		megaEvolves: "Metagross-Delta-R",
+		itemUser: ["Metagross-Delta-R"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 982,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	deltametagrossitespider: {
+		name: "Delta Metagrossite Spider",
+		spritenum: 752 + 24,
+		megaStone: "Metagross-Delta-S-Mega",
+		megaEvolves: "Metagross-Delta-S",
+		itemUser: ["Metagross-Delta-S"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 983,
 		gen: 6,
 		isNonstandard: "Past",
 	},

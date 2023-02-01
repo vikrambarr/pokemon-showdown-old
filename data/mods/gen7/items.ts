@@ -192,6 +192,14 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	deltametagrossiteruin: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	deltametagrossitespider: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	milotite: {
 		inherit: true,
 		isNonstandard: null,

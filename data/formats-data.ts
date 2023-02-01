@@ -7059,4 +7059,49 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	beldumdeltas: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+	metangdeltas: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "NFE",
+    },
+    metagrossdeltas: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+    },
+	metagrossdeltasmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Uber",
+    },
+	beldumdeltar: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+	metangdeltar: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "NFE",
+    },
+    metagrossdeltar: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+    },
+	metagrossdeltarmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Uber",
+    },
+	metagrossdeltarcrystal: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Uber",
+    },
 };
