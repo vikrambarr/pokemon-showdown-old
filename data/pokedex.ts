@@ -4160,6 +4160,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	typhlosiondelta: {
 		num: 157,
 		name: "Typhlosion-Delta",
+		baseForme: "Delta",
 		types: ["Electric", "Steel"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 78, atk: 84, def: 78, spa: 109, spd: 85, spe: 100},
@@ -13598,6 +13599,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		gen: 6,
 		num: 587,
 		name: "Emolga-Delta",
+		baseForme: "Delta",
 		types: ["Fire", "Dark"],
 		baseStats: {hp: 55, atk: 75, def: 60, spa: 75, spd: 60, spe: 103},
 		abilities: {0: "Flash Fire", H: "Blaze Boost"},
