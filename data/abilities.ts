@@ -5247,6 +5247,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 32,
 	},
+	winterjoy: {
+		onBasePowerPriority: 21,
+		onBasePower(basePower, pokemon, target, move) {
+			const currentDate = new Date();
+			const monthnr = currentDate.getMonth();
+			if (monthnr < 2 || monthnr > 9) return this.chainModify([5734, 4096]);
+			if (monthnr > 3 && monthnr < 8) return this.chainModify([2867, 4096]);
+			},
+		name: "Winter Joy",
+		gen: 6,
+		rating: 3,
+		num: 32,
+	},
 	windpower: {
 		onDamagingHitOrder: 1,
 		onDamagingHit(damage, target, source, move) {
