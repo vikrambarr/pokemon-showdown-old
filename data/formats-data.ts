@@ -6746,4 +6746,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	tangeladelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+    tangrowthdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "RU",
+    },
 };
