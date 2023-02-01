@@ -7416,4 +7416,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "OU",
     },
+	regicedelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+    },
 };
