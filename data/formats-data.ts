@@ -6921,4 +6921,24 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	seedotdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+	nuzleafdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "NFE",
+    },
+    shiftrydelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "RU",
+    },
+	shiftrymega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "RU",
+    },
 };

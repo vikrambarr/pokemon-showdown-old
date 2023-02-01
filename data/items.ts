@@ -5344,6 +5344,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 253,
 		gen: 3,
 	},
+	shiftrite: {
+		name: "Shiftrite",
+		spritenum: 752 + 56,
+		megaStone: "Shiftry-Mega",
+		megaEvolves: "Shiftry",
+		itemUser: ["Shiftry"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 960,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	shinystone: {
 		name: "Shiny Stone",
 		spritenum: 439,
