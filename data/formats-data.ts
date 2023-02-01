@@ -7257,4 +7257,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	emolgadeltafired: {
 		isNonstandard: "Unobtainable",
 	},
+	karrablastdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "LC",
+    },
+    escavalierdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "UU",
+    },
 };
