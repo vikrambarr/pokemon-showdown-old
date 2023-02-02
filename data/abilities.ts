@@ -1264,6 +1264,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 10,
 	},
+	eventhorizon: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				source.addVolatile('trapped', target, move, 'trapper');
+			}
+		},
+		name: "Event Horizon",
+		gen: 6,
+		rating: 5,
+		num: 11,
+	},
 	fairyaura: {
 		onStart(pokemon) {
 			if (this.suppressingAbility(pokemon)) return;

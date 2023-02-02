@@ -7651,4 +7651,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "AG",
     },
+	regigigasprimal: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Uber",
+    },
+	ufi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Uber",
+	},
 };
