@@ -6165,6 +6165,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 8,
 		isNonstandard: "Past",
 	},
+	sudowoodite: {
+		name: "Sudowoodite",
+		spritenum: 752 + 62,
+		megaStone: "Sudowoodo-Mega",
+		megaEvolves: "Sudowoodo",
+		itemUser: ["Sudowoodo"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 964,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	sunflorite: {
 		name: "Sunflorite",
 		spritenum: 752 + 63,
