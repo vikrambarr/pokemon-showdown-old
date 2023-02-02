@@ -3165,6 +3165,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 257,
 	},
+	periodicorbit: {
+		name: "Periodic Orbit",
+		gen: 6,
+		rating: 4,
+		num: 23,
+	},
 	perishbody: {
 		onDamagingHit(damage, target, source, move) {
 			if (!this.checkMoveMakesContact(move, source, target)) return;

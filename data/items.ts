@@ -3285,6 +3285,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	jirachite: {
+		name: "Jirachite",
+		spritenum: 752 + 43,
+		megaStone: "Jirachi-Mega",
+		megaEvolves: "Jirachi",
+		itemUser: ["Jirachi"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 951,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	kasibberry: {
 		name: "Kasib Berry",
 		spritenum: 233,
