@@ -712,6 +712,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 5,
 		isNonstandard: "Past",
 	},
+	cacturnite: {
+		name: "Cacturnite",
+		spritenum: 752 + 2,
+		megaStone: "Cacturne-Mega",
+		megaEvolves: "Cacturne",
+		itemUser: ["Cacturne"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 938,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	cameruptite: {
 		name: "Cameruptite",
 		spritenum: 625,
