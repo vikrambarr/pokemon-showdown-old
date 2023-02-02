@@ -1692,6 +1692,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 3,
 		isNonstandard: "Past",
 	},
+	donphanite: {
+		name: "Donphanite",
+		spritenum: 752 + 32,
+		megaStone: "Donphan-Mega",
+		megaEvolves: "Donphan",
+		itemUser: ["Donphan"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 965,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	dousedrive: {
 		name: "Douse Drive",
 		spritenum: 103,
