@@ -7626,4 +7626,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "OU",
     },
+	zekromarmor: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Uber",
+    },
 };

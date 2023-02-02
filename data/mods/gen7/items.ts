@@ -340,6 +340,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	zekromarmor: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	diancite: {
 		inherit: true,
 		isNonstandard: null,

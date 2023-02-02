@@ -8005,6 +8005,23 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	zekromarmor: {
+		name: "Zekrom Armor",
+		spritenum: 752 + 69,
+		fling: {
+			basePower: 60,
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 644) || pokemon.baseSpecies.num === 644) {
+				return false;
+			}
+			return true;
+		},
+		forcedForme: "Zekrom-Armor",
+		itemUser: ["Zekrom-Armor"],
+		num: 935,
+		gen: 6,
+	},
 	zoomlens: {
 		name: "Zoom Lens",
 		spritenum: 574,
