@@ -7456,4 +7456,54 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	eeveepremega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "RU",
+    },
+	eeveemegabase: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "UU",
+    },
+	eeveemegav: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
+	eeveemegaj: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
+	eeveemegaf: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
+	eeveemegae: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
+	eeveemegau: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
+	eeveemegal: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
+	eeveemegag: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
+	eeveemegas: {
+		isNonstandard: "Unobtainable",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
 };

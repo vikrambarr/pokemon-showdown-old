@@ -248,6 +248,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	eevite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	volcaronadeltaarmor: {
 		inherit: true,
 		isNonstandard: null,

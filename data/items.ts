@@ -1618,6 +1618,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	eevite: {
+		name: "Eevite",
+		spritenum: 752 + 33,
+		megaStone: "Eevee-Mega-Base",
+		megaEvolves: "Eevee-Pre-Mega",
+		itemUser: ["Eevee-Pre-Mega"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 973,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	destinyknot: {
 		name: "Destiny Knot",
 		spritenum: 95,
