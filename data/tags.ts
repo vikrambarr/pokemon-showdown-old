@@ -226,6 +226,10 @@ export const Tags: {[id: string]: TagData} = {
 		name: "ND AG",
 		speciesFilter: species => species.natDexTier === 'AG',
 	},
+	idag: {
+		name: "ID AG",
+		speciesFilter: species => species.natDexTier === 'IAG',
+	},
 	nduber: {
 		name: "ND Uber",
 		speciesFilter: species => species.natDexTier === 'Uber' || species.natDexTier === '(Uber)',
@@ -249,10 +253,6 @@ export const Tags: {[id: string]: TagData} = {
 	ndru: {
 		name: "ND RU",
 		speciesFilter: species => species.natDexTier === 'RU',
-	},
-	ndi: {
-		name: "ND INS",
-		speciesFilter: species => species.natDexTier === 'INS',
 	},
 
 	// Legality tags

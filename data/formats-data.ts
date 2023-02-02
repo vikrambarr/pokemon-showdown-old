@@ -740,7 +740,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	gengarmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "AG",
+		natDexTier: "IAG",
 	},
 	gengargmax: {
 		isNonstandard: "Past",
@@ -1992,7 +1992,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	shedinja: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "AG",
+		natDexTier: "IAG",
 	},
 	whismur: {
 		isNonstandard: "Past",
@@ -2547,7 +2547,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	rayquazamega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "AG",
+		natDexTier: "IAG",
 	},
 	jirachi: {
 		isNonstandard: "Past",
@@ -5439,7 +5439,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	calyrexshadow: {
 		isNonstandard: "Unobtainable",
 		tier: "Unreleased",
-		natDexTier: "AG",
+		natDexTier: "IAG",
 	},
 	enamorus: {
 		isNonstandard: "Unobtainable",
@@ -5852,12 +5852,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	miraidon: {
 		tier: "Uber",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "IAG",
 	},
 	thrembo: {
 		tier: "Uber",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "IAG",
 	},
 	tinkatink: {
 		tier: "LC",
@@ -7644,12 +7644,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	arceusprimal: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "AG",
+		natDexTier: "IAG",
     },
 	giratinaprimal: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "AG",
+		natDexTier: "IAG",
     },
 	regigigasprimal: {
 		isNonstandard: "Past",
@@ -7663,8 +7663,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	castformsandy: {
 		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Illegal",
     },
 	castformcloudy: {
 		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Illegal",
     },
 };
