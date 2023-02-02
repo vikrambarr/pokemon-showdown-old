@@ -4574,6 +4574,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 92,
 	},
+	sleet: {
+		onImmunity(type, pokemon) {
+			if (type === 'hail') return false;
+		},
+		onStart(source) {
+			this.field.setWeather('hail');
+		},
+		name: "Sleet",
+		gen: 6,
+		rating: 4,
+		num: 36,
+	},
 	slowstart: {
 		onStart(pokemon) {
 			pokemon.addVolatile('slowstart');

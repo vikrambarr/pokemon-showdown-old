@@ -1179,6 +1179,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	cryogonite: {
+		name: "Cryogonite",
+		spritenum: 752 + 5,
+		megaStone: "Cryogonal-Mega",
+		megaEvolves: "Cryogonal",
+		itemUser: ["Cryogonal"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 941,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	crystalfragment: {
 		name: "Crystal Fragment",
 		spritenum: 752 + 6,
