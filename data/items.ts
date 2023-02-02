@@ -6083,6 +6083,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 3,
 		isNonstandard: "Past",
 	},
+	spiritombite: {
+		name: "Spiritombite",
+		spritenum: 752 + 59,
+		megaStone: "Spiritomb-Mega",
+		megaEvolves: "Spiritomb",
+		itemUser: ["Spiritomb"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 961,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	splashplate: {
 		name: "Splash Plate",
 		spritenum: 463,
