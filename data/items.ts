@@ -2131,6 +2131,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 2,
 		isPokeball: true,
 	},
+	feraligatite: {
+		name: "Feraligatite",
+		spritenum: 752 + 36,
+		megaStone: "Feraligatr-Mega",
+		megaEvolves: "Feraligatr",
+		itemUser: ["Feraligatr"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 945,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	fightinggem: {
 		name: "Fighting Gem",
 		spritenum: 139,
