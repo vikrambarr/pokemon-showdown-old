@@ -113,8 +113,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	venusaurdelta: {
 		num: 3,
 		name: "Venusaur-Delta",
-		baseSpecies: "Venusaur",
-		forme: "Delta",
 		types: ["Fairy", "Psychic"],
 		baseStats: {hp: 80, atk: 82, def: 83, spa: 100, spd: 100, spe: 80},
 		abilities: {0: "Psycho Call", H: "Regenerator"},
@@ -130,8 +128,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	venusaurdeltamega: {
 		num: 3,
 		name: "Venusaur-Delta-Mega",
-		baseSpecies: "Venusaur",
-		forme: "Delta-Mega",
+		baseSpecies: "Venusaur-Delta",
+		forme: "Mega",
 		types: ["Fairy", "Psychic"],
 		baseStats: {hp: 80, atk: 100, def: 123, spa: 122, spd: 120, spe: 80},
 		abilities: {0: "Hubris"},
