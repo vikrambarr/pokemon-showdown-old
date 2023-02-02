@@ -3553,6 +3553,23 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 85,
 		gen: 1,
 	},
+	leavannyarmor: {
+		name: "Leavanny Armor",
+		spritenum: 752 + 44,
+		fling: {
+			basePower: 60,
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 542) || pokemon.baseSpecies.num === 542) {
+				return false;
+			}
+			return true;
+		},
+		forcedForme: "Leavanny-Armor",
+		itemUser: ["Leavanny-Armor"],
+		num: 933,
+		gen: 6,
+	},
 	leek: {
 		name: "Leek",
 		fling: {
