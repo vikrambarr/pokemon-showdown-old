@@ -1604,6 +1604,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	marowite: {
+		name: "Marowite",
+		spritenum: 752 + 46,
+		megaStone: "Marowak-Mega",
+		megaEvolves: "Marowak",
+		itemUser: ["Marowak"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 953,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	destinyknot: {
 		name: "Destiny Knot",
 		spritenum: 95,
