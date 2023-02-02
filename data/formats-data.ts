@@ -7576,4 +7576,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	crawdauntmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+    },
 };

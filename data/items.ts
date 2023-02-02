@@ -1151,6 +1151,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1253,
 		gen: 8,
 	},
+	crawdite: {
+		name: "Crawdite",
+		spritenum: 752 + 4,
+		megaStone: "Crawdaunt-Mega",
+		megaEvolves: "Crawdaunt",
+		itemUser: ["Crawdaunt"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 940,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	crystalfragment: {
 		name: "Crystal Fragment",
 		spritenum: 752 + 6,
