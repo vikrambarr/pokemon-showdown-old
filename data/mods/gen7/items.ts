@@ -300,6 +300,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	chatotite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	volcaronadeltaarmor: {
 		inherit: true,
 		isNonstandard: null,
