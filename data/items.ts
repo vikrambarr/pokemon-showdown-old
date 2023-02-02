@@ -1590,6 +1590,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	poliwrathite: {
+		name: "Poliwrathite",
+		spritenum: 752 + 54,
+		megaStone: "Poliwrath-Mega",
+		megaEvolves: "Poliwrath",
+		itemUser: ["Poliwrath"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 677,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	destinyknot: {
 		name: "Destiny Knot",
 		spritenum: 95,
