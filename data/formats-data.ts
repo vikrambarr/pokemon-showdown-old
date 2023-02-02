@@ -7646,4 +7646,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "AG",
     },
+	giratinaprimal: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "AG",
+    },
 };

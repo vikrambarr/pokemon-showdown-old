@@ -3071,6 +3071,160 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1.5,
 		num: 12,
 	},
+	omnitype: {
+		onStart(pokemon) {
+			if (pokemon.species.id !== 'giratinaprimal') return;
+			this.add('-ability', pokemon, 'Omnitype');
+			return;
+		},
+		onEffectiveness(typeMod, target, type, move) {
+			if (target?.species.id !== 'giratinaprimal') return;
+			let octupleEffective = ['None'];
+			let superEffective = ['Rock'];
+			let neutral = ['Crystal', 'Fairy', 'Fire', 'Flying', 'Ice', 'Water'];
+			let resisted = ['Dark', 'Steel'];
+			let quadResisted = ['None'];
+			const sixteenthPower = ['Bug', 'Grass'];
+			if (target.hasItem('ringtarget')) {
+				octupleEffective = octupleEffective.concat(['Ground']);
+				superEffective = superEffective.concat(['Ghost']);
+				neutral = neutral.concat(['Dragon', 'Fighting', 'Psychic']);
+				resisted = resisted.concat(['Electric']);
+				quadResisted = quadResisted.concat(['Normal', 'Poison']);
+			}
+			if (
+				target.hasItem('ironball') || target.volatiles['smackdown'] ||
+				target.volatiles['ingrain'] || this.field.getPseudoWeather('Gravity')
+			) {
+				octupleEffective = octupleEffective.concat(['Ground']);
+			}
+			if (target.volatiles['foresight']) {
+				quadResisted = quadResisted.concat(['Normal']);
+				neutral = neutral.concat(['Fighting']);
+			}
+			if (target.volatiles['miracleeye']) {
+				neutral = neutral.concat(['Psychic']);
+			}
+			if (target?.types.length === 2) {
+				if (octupleEffective.includes(move.type)) {
+					return 1.5;
+				}
+				if (superEffective.includes(move.type)) {
+					return 0.5;
+				}
+				if (neutral.includes(move.type)) {
+					return 0;
+				}
+				if (resisted.includes(move.type)) {
+					return -0.5;
+				}
+				if (quadResisted.includes(move.type)) {
+					return -1;
+				}
+				if (sixteenthPower.includes(move.type)) {
+					return -2;
+				}
+				return 0;
+			} else {
+				if (octupleEffective.includes(move.type)) {
+					return 3;
+				}
+				if (superEffective.includes(move.type)) {
+					return 1;
+				}
+				if (neutral.includes(move.type)) {
+					return 0;
+				}
+				if (resisted.includes(move.type)) {
+					return -1;
+				}
+				if (quadResisted.includes(move.type)) {
+					return -2;
+				}
+				if (sixteenthPower.includes(move.type)) {
+					return -4;
+				}
+			}
+		},
+		onTryHitPriority: 1,
+		onTryHit(target, source, move) {
+			if (target.species.id !== 'giratinaprimal') return;
+			if (source.hasAbility('ancientpresence')) return;
+			if (move.flags['powder'] && target !== source && this.dex.getImmunity('powder', target)) {
+				this.add('-immune', target, '[from] ability: Omnitype');
+				return null;
+			}
+			if (move.category === 'Status' || target === source) return;
+			if (target.hasItem('ringtarget')) return;
+			const immunities = ['Dragon', 'Electric', 'Ghost', 'Ground', 'Poison'];
+			if (immunities.includes(move.type)) {
+				this.add('-immune', this.effectState.target, '[from] ability: Omnitype');
+				return null;
+			}
+			if (target.volatiles['miracleeye']) return;
+			if (move.type === 'Psychic') {
+				this.add('-immune', this.effectState.target, '[from] ability: Omnitype');
+				return null;
+			}
+			if (target.volatiles['foresight'] || source.hasAbility('scrappy')) return;
+			if (move.type === 'Normal' || move.type === 'Fighting') {
+				this.add('-immune', this.effectState.target, '[from] ability: Omnitype');
+				return null;
+			}
+			if (move.id === 'Sheer Cold') {
+				this.add('-immune', target, '[from] ability: Omnitype');
+				return null;
+			}
+		},
+		onAllyTryHitSide(target, source, move) {
+			if (target.species.id !== 'giratinaprimal') return;
+			if (source.hasAbility('ancientpresence')) return;
+			if (move.flags['powder'] && target !== source && this.dex.getImmunity('powder', target)) {
+				this.add('-immune', target, '[from] ability: Omnitype');
+				return null;
+			}
+			if (move.category === 'Status' || target === source) return;
+			if (target.hasItem('ringtarget')) return;
+			const immunities = ['Dragon', 'Electric', 'Ghost', 'Ground', 'Poison'];
+			if (immunities.includes(move.type)) {
+				this.add('-immune', this.effectState.target, '[from] ability: Omnitype');
+				return null;
+			}
+			if (target.volatiles['miracleeye']) return;
+			if (move.type === 'Psychic') {
+				this.add('-immune', this.effectState.target, '[from] ability: Omnitype');
+				return null;
+			}
+			if (target.volatiles['foresight'] || source.hasAbility('scrappy')) return;
+			if (move.type === 'Normal' || move.type === 'Fighting') {
+				this.add('-immune', this.effectState.target, '[from] ability: Omnitype');
+				return null;
+			}
+		},
+		onSetStatus(status, target, source, effect) {
+			if (target.species.id !== 'giratinaprimal') return;
+			const statusImmune = ['par', 'frz', 'brn', 'psn', 'tox'];
+			if (!statusImmune.includes(status.id)) return;
+			if ((effect as Move)?.status) {
+				this.add('-immune', target, '[from] ability: Omnitype');
+			}
+			return false;
+		},
+		onImmunity(type, pokemon) {
+			if (pokemon.species.id !== 'giratinaprimal') return;
+			if (type === 'sandstorm' || type === 'hail' || type === 'powder') return false;
+		},
+		onTrapPokemonPriority: -10,
+		onTrapPokemon(pokemon) {
+			if (pokemon.species.id !== 'giratinaprimal') return;
+			pokemon.trapped = pokemon.maybeTrapped = false;
+		},
+		isBreakable: true,
+		name: "Omnitype",
+		gen: 6,
+		rating: 3,
+		num: 20,
+	},
 	opportunist: {
 		onFoeAfterBoost(boost, target, source, effect) {
 			if (effect?.name === 'Opportunist' || effect?.name === 'Mirror Herb') return;
