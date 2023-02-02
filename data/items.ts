@@ -7979,7 +7979,21 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 276,
 		gen: 4,
 	},
-
+	zoronite: {
+		name: "Zoronite",
+		spritenum: 752 + 70,
+		megaStone: "Zoroark-Mega",
+		megaEvolves: "Zoroark",
+		itemUser: ["Zoroark"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 968,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	
 	// Gen 2 items
 
 	berserkgene: {
