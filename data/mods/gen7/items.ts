@@ -284,11 +284,19 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	flygonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	volcaronadeltaarmor: {
 		inherit: true,
 		isNonstandard: null,
 	},
 	mewtwoarmor: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	flygonarmor: {
 		inherit: true,
 		isNonstandard: null,
 	},

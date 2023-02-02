@@ -2372,6 +2372,37 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 8,
 		isNonstandard: "Past",
 	},
+	flygonarmor: {
+		name: "Flygon Armor",
+		spritenum: 752 + 37,
+		fling: {
+			basePower: 60,
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 330) || pokemon.baseSpecies.num === 330) {
+				return false;
+			}
+			return true;
+		},
+		forcedForme: "Flygon-Armor",
+		itemUser: ["Flygon-Armor"],
+		num: 933,
+		gen: 6,
+	},
+	flygonite: {
+		name: "Flygonite",
+		spritenum: 752 + 38,
+		megaStone: "Flygon-Mega",
+		megaEvolves: "Flygon",
+		itemUser: ["Flygon"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 946,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	flyinggem: {
 		name: "Flying Gem",
 		spritenum: 149,
