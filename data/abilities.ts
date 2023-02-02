@@ -1194,6 +1194,42 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 194,
 	},
+	etherealshroud: {
+		onTryHit(target, source, move) {
+			if (move.category === 'Status' || source.hasAbility('scrappy') || target === source) return;
+			if (target.volatiles['miracleeye'] || target.volatiles['foresight']) return;
+			if (move.type === 'Normal' || move.type === 'Fighting') {
+				this.add('-immune', target, '[from] ability: Ethereal Shroud');
+				return null;
+			}
+		},
+		onAllyTryHitSide(target, source, move) {
+			if (move.category === 'Status' || source.hasAbility('scrappy') || target === source) return;
+			if (target.volatiles['miracleeye'] || target.volatiles['foresight']) return;
+			if (move.type === 'Normal' || move.type === 'Fighting') {
+				this.add('-immune', this.effectState.target, '[from] ability: Ethereal Shroud');
+			}
+		},
+		onSourceModifyAtkPriority: 6,
+		onSourceModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Bug' || move.type === 'Poison') {
+				this.debug('Ethereal Shroud weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		onSourceModifySpAPriority: 6,
+		onSourceModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Bug' || move.type === 'Poison') {
+				this.debug('Ethereal Shroud weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		name: "Ethereal Shroud",
+		isBreakable: true,
+		gen: 6,
+		rating: 3.5,
+		num: 10,
+	},
 	fairyaura: {
 		onStart(pokemon) {
 			if (this.suppressingAbility(pokemon)) return;
