@@ -7604,6 +7604,23 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 248,
 		gen: 2,
 	},
+	tyranitararmor: {
+		name: "Tyranitar Armor",
+		spritenum: 752 + 66,
+		fling: {
+			basePower: 60,
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.num === 248) || pokemon.baseSpecies.num === 248) {
+				return false;
+			}
+			return true;
+		},
+		forcedForme: "Tyranitar-Armor",
+		itemUser: ["Tyranitar-Armor"],
+		num: 932,
+		gen: 6,
+	},
 	tyranitarite: {
 		name: "Tyranitarite",
 		spritenum: 607,
