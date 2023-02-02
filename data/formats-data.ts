@@ -7436,4 +7436,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	hoopadelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "UU",
+    },
+    hoopadeltaunleashed: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Uber",
+    },
 };
