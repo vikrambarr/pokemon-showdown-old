@@ -6491,6 +6491,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "OU",
     },
+	froslassmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "OU",
+    },
 	shinxdelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -7595,5 +7600,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "OU",
+    },
+	zebstrikamega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "UU",
     },
 };
