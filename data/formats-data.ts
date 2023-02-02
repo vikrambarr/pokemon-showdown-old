@@ -7506,4 +7506,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
+	mewtwoarmor: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Uber",
+    },
+	mewtwoshadow: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Uber",
+    },
+	mewtwoshadowmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Uber",
+    },
 };

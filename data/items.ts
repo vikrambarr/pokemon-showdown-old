@@ -4050,6 +4050,23 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	mewtwoarmor: {
+		name: "Mewtwo Armor",
+		spritenum: 752 + 48,
+		fling: {
+			basePower: 60,
+		},
+		onTakeItem(item, pokemon, source) {
+			if ((source && source.baseSpecies.baseSpecies === 'Mewtwo') || pokemon.baseSpecies.baseSpecies === 'Mewtwo') {
+				return false;
+			}
+			return true;
+		},
+		forcedForme: "Mewtwo-Armor",
+		itemUser: ["Mewtwo-Armor"],
+		num: 937,
+		gen: 6,
+	},
 	mewtwonitex: {
 		name: "Mewtwonite X",
 		spritenum: 600,
@@ -5551,6 +5568,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 254,
 		gen: 3,
+		isNonstandard: "Past",
+	},
+	shadowmewtwonite: {
+		name: "Shadow Mewtwonite",
+		spritenum: 625,
+		megaStone: "Mewtwo-Shadow-Mega",
+		megaEvolves: "Mewtwo-Shadow",
+		itemUser: ["Mewtwo-Shadow"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 991,
+		gen: 6,
 		isNonstandard: "Past",
 	},
 	sharpbeak: {
