@@ -3912,6 +3912,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	meganiumite: {
+		name: "Meganiumite",
+		spritenum: 752 + 47,
+		megaStone: "Meganium-Mega",
+		megaEvolves: "Meganium",
+		itemUser: ["Meganium"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 954,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	mentalherb: {
 		name: "Mental Herb",
 		spritenum: 285,
