@@ -756,11 +756,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
 	},
-	steelixmega: {
-		isNonstandard: "Past",
-		tier: "Illegal",
-		natDexTier: "RU",
-	},
 	drowzee: {
 		tier: "LC",
 	},
@@ -7537,6 +7532,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "RU",
     },
 	politoedmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "RU",
+    },
+	steelixmegasteel: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "RU",
+    },
+	steelixmegafire: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "RU",

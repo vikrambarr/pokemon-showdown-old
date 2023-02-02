@@ -6046,10 +6046,10 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 8,
 		isNonstandard: "Past",
 	},
-	steelixite: {
-		name: "Steelixite",
+	steelixitesteel: {
+		name: "Steelixite Steel",
 		spritenum: 621,
-		megaStone: "Steelix-Mega",
+		megaStone: "Steelix-Mega-Steel",
 		megaEvolves: "Steelix",
 		itemUser: ["Steelix"],
 		onTakeItem(item, source) {
@@ -6057,6 +6057,20 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		num: 761,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	steelixitefire: {
+		name: "Steelixite Fire",
+		spritenum: 752 + 60,
+		megaStone: "Steelix-Mega-Fire",
+		megaEvolves: "Steelix",
+		itemUser: ["Steelix"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 962,
 		gen: 6,
 		isNonstandard: "Past",
 	},
