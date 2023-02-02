@@ -4212,6 +4212,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	miltankite: {
+		name: "Miltankite",
+		spritenum: 752 + 50,
+		megaStone: "Miltank-Mega",
+		megaEvolves: "Miltank",
+		itemUser: ["Miltank"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 956,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	mimikiumz: {
 		name: "Mimikium Z",
 		spritenum: 688,
