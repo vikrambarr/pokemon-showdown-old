@@ -3621,11 +3621,11 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 			"Eevee-Pre-Mega", "Eevee-Mega-Base", "Eevee-Mega-V", "Eevee-Mega-J", "Eevee-Mega-F", "Eevee-Mega-E", "Eevee-Mega-U", "Eevee-Mega-L", "Eevee-Mega-G", "Eevee-Mega-S",
 		],
 	},
-	eeveemegabase: {
+	eeveemega: {
 		num: 133,
-		name: "Eevee-Mega-Base",
+		name: "Eevee-Mega",
 		baseSpecies: "Eevee-Pre-Mega",
-		forme: "Mega-Base",
+		forme: "Mega",
 		types: ["Normal"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 83, atk: 83, def: 83, spa: 83, spd: 83, spe: 83},
