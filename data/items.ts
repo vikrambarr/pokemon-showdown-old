@@ -3758,6 +3758,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 3,
 		isNonstandard: "Past",
 	},
+	magcargonite: {
+		name: "Magcargonite",
+		spritenum: 752 + 45,
+		megaStone: "Magcargo-Mega",
+		megaEvolves: "Magcargo",
+		itemUser: ["Magcargo"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 952,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	magmarizer: {
 		name: "Magmarizer",
 		spritenum: 272,
