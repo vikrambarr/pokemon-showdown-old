@@ -1590,6 +1590,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	politoedite: {
+		name: "Politoedite",
+		spritenum: 752 + 53,
+		megaStone: "Politoed-Mega",
+		megaEvolves: "Politoed",
+		itemUser: ["Politoed"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 957,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	poliwrathite: {
 		name: "Poliwrathite",
 		spritenum: 752 + 54,

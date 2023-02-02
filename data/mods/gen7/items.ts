@@ -268,6 +268,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	politoedite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	volcaronadeltaarmor: {
 		inherit: true,
 		isNonstandard: null,
