@@ -7661,4 +7661,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "Uber",
 	},
+	castformsandy: {
+		isNonstandard: "Past",
+    },
+	castformcloudy: {
+		isNonstandard: "Past",
+    },
 };
