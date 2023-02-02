@@ -7641,4 +7641,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
+	arceusprimal: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "AG",
+    },
 };

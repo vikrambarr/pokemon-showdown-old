@@ -11954,10 +11954,10 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		tags: ["Mythical"],
 		eggGroups: ["Undiscovered"],
-		otherFormes: ["Arceus-Bug", "Arceus-Dark", "Arceus-Dragon", "Arceus-Electric", "Arceus-Fairy", "Arceus-Fighting", "Arceus-Fire", "Arceus-Flying", "Arceus-Ghost", "Arceus-Grass", "Arceus-Ground", "Arceus-Ice", "Arceus-Poison", "Arceus-Psychic", "Arceus-Rock", "Arceus-Steel", "Arceus-Water"],
+		otherFormes: ["Arceus-Bug", "Arceus-Dark", "Arceus-Dragon", "Arceus-Electric", "Arceus-Fairy", "Arceus-Fighting", "Arceus-Fire", "Arceus-Flying", "Arceus-Ghost", "Arceus-Grass", "Arceus-Ground", "Arceus-Ice", "Arceus-Poison", "Arceus-Psychic", "Arceus-Rock", "Arceus-Steel", "Arceus-Water", "Arceus-Primal"],
 		formeOrder: [
 			"Arceus", "Arceus-Fighting", "Arceus-Flying", "Arceus-Poison", "Arceus-Ground", "Arceus-Rock", "Arceus-Bug", "Arceus-Ghost", "Arceus-Steel",
-			"Arceus-Fire", "Arceus-Water", "Arceus-Grass", "Arceus-Electric", "Arceus-Psychic", "Arceus-Ice", "Arceus-Dragon", "Arceus-Dark", "Arceus-Fairy",
+			"Arceus-Fire", "Arceus-Water", "Arceus-Grass", "Arceus-Electric", "Arceus-Psychic", "Arceus-Ice", "Arceus-Dragon", "Arceus-Dark", "Arceus-Fairy", "Arceus-Primal"
 		],
 	},
 	arceusbug: {
@@ -12232,6 +12232,21 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		requiredItems: ["Splash Plate", "Waterium Z"],
 		changesFrom: "Arceus",
+	},
+	arceusprimal: {
+		num: 493,
+		name: "Arceus-Primal",
+		baseSpecies: "Arceus",
+		forme: "Primal",
+		types: ["Normal", "Dragon"],
+		gender: "N",
+		baseStats: {hp: 120, atk: 145, def: 135, spa: 145, spd: 135, spe: 140},
+		abilities: {0: "Ancient Presence"},
+		weightkg: 320,
+		heightm: 1,
+		color: "Red",
+		eggGroups: ["Undiscovered"],
+		requiredItem: "Crystal Piece",
 	},
 	victini: {
 		num: 494,

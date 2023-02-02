@@ -135,6 +135,40 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 148,
 	},
+	ancientpresence: {
+		onModifyMovePriority: -5,
+		onModifyMove(move, source, target) {
+			move.forceSTAB = true;
+			if (target?.hasAbility('wonderguard')) return;
+			if (!move.ignoreImmunity) move.ignoreImmunity = {};
+			if (move.ignoreImmunity !== true) {
+				move.ignoreImmunity['Psychic'] = true;
+				move.ignoreImmunity['Electric'] = true;
+				move.ignoreImmunity['Poison'] = true;
+				move.ignoreImmunity['Ghost'] = true;
+				move.ignoreImmunity['Dragon'] = true;
+				if (target?.hasAbility('etherealshroud') === false) {
+					move.ignoreImmunity['Fighting'] = true;
+					move.ignoreImmunity['Normal'] = true;
+				}
+				if (
+					target?.volatiles['magnetrise'] || target?.hasItem('airballoon') ||
+					target?.hasAbility('levitate')
+				) {
+					move.ignoreImmunity['Ground'] = false;
+				} else {
+					move.ignoreImmunity['Ground'] = true;
+				}
+			}
+		},
+		onFoeEffectiveness(typeMod, target, type) {
+			return 0;
+		},
+		name: "Ancient Presence",
+		gen: 6,
+		rating: 2,
+		num: 7,
+	},
 	angerpoint: {
 		onHit(target, source, move) {
 			if (!target.hp) return;
