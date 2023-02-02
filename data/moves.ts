@@ -3960,7 +3960,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		isFutureMove: true,
 		onTry(source, target) {
 			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
+			const periodic = source.hasAbility('periodicorbit');
 			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+				duration: periodic ? 5 : 3,
 				move: 'doomdesire',
 				source: source,
 				moveData: {
@@ -3971,11 +3973,32 @@ export const Moves: {[moveid: string]: MoveData} = {
 					category: "Special",
 					priority: 0,
 					flags: {},
+					ignoreImmunity: false,
 					effectType: 'Move',
 					isFutureMove: true,
 					type: 'Steel',
 				},
 			});
+			if (periodic && target.side.addSlotCondition(target, 'futuremoveperiodic')) {
+				Object.assign(target.side.slotConditions[target.position]['futuremoveperiodic'], {
+					duration: 3,
+					move: 'doomdesire',
+					source: source,
+					moveData: {
+						id: 'doomdesire',
+						name: "Doom Desire",
+						accuracy: 100,
+						basePower: 140,
+						category: "Special",
+						priority: 0,
+						flags: {},
+						ignoreImmunity: false,
+						effectType: 'Move',
+						isFutureMove: true,
+						type: 'Steel',
+					},
+				});
+			}
 			this.add('-start', source, 'Doom Desire');
 			return this.NOT_FAIL;
 		},
@@ -6573,8 +6596,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		isFutureMove: true,
 		onTry(source, target) {
 			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
+			const periodic = source.hasAbility('periodicorbit');
 			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
-				duration: 3,
+				duration: periodic ? 5 : 3,
 				move: 'futuresight',
 				source: source,
 				moveData: {
@@ -6591,6 +6615,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 					type: 'Psychic',
 				},
 			});
+			if (periodic && target.side.addSlotCondition(target, 'futuremoveperiodic')) {
+				Object.assign(target.side.slotConditions[target.position]['futuremoveperiodic'], {
+					duration: 3,
+					move: 'futuresight',
+					source: source,
+					moveData: {
+						id: 'futuresight',
+						name: "Future Sight",
+						accuracy: 100,
+						basePower: 120,
+						category: "Special",
+						priority: 0,
+						flags: {},
+						ignoreImmunity: false,
+						effectType: 'Move',
+						isFutureMove: true,
+						type: 'Psychic',
+					},
+				});
+			}
 			this.add('-start', source, 'move: Future Sight');
 			return this.NOT_FAIL;
 		},
@@ -21696,21 +21740,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
-		slotCondition: 'Wish',
-		condition: {
-			duration: 2,
-			onStart(pokemon, source) {
-				this.effectState.hp = source.maxhp / 2;
-			},
-			onResidualOrder: 4,
-			onEnd(target) {
-				if (target && !target.fainted) {
-					const damage = this.heal(this.effectState.hp, target, target);
-					if (damage) {
-						this.add('-heal', target, target.getHealth, '[from] move: Wish', '[wisher] ' + this.effectState.source.name);
-					}
-				}
-			},
+		//slotCondition: 'Wish',
+		onTry(source) {
+			if (!source.side.addSlotCondition(source, 'wish')) return false;
+			if (source.hasAbility('periodicorbit')) source.side.addSlotCondition(source, 'wishperiodic');
+			return this.NOT_FAIL;
 		},
 		secondary: null,
 		target: "self",
