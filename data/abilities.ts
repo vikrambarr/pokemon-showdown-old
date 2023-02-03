@@ -3726,7 +3726,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	proteanmaxima: {
 		onAfterMega(pokemon) {
-			if (!pokemon.baseSpecies.id.includes('eeveemega') || !pokemon.species.id.includes('eeveemega')) {
+			if (!pokemon.baseSpecies.id.includes('eevee') || !pokemon.species.id.includes('eevee')) {
 				return;
 			}
 			const action = this.queue.willMove(pokemon);
@@ -3734,7 +3734,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			const move = this.dex.getActiveMove(action.move.id);
 			let type = move.type;
 			const dict = {
-				'Normal': 'Eevee-Mega-Base',
+				'Normal': 'Eevee-Mega',
 				'Water': 'Eevee-Mega-V',
 				'Electric': 'Eevee-Mega-J',
 				'Fire': 'Eevee-Mega-F',
@@ -3761,7 +3761,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 
 		onBeforeTurn(pokemon) {
-			if (!pokemon.baseSpecies.id.includes('eeveemega') || !pokemon.species.id.includes('eeveemega')) {
+			if (!pokemon.baseSpecies.id.includes('eevee') || !pokemon.species.id.includes('eevee')) {
 				return;
 			}
 			const action = this.queue.willMove(pokemon);
@@ -3769,7 +3769,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			const move = this.dex.getActiveMove(action.move.id);
 			let type = move.type;
 			const dict = {
-				'Normal': 'Eevee-Mega-Base',
+				'Normal': 'Eevee-Mega',
 				'Water': 'Eevee-Mega-V',
 				'Electric': 'Eevee-Mega-J',
 				'Fire': 'Eevee-Mega-F',
@@ -3796,7 +3796,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 
 		onTryHit(target, source, move) {
-			if (!target.baseSpecies.id.includes('eeveemega') || !target.species.id.includes('eeveemega')) {
+			if (!target.baseSpecies.id.includes('eevee') || !target.species.id.includes('eevee')) {
 				return;
 			}
 			if (target.types[0] === 'Water') {
@@ -3836,7 +3836,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		onAllyTryHitSide(target, source, move) {
-			if (!target.baseSpecies.id.includes('eeveemega') || !target.species.id.includes('eeveemega')) {
+			if (!target.baseSpecies.id.includes('eevee') || !target.species.id.includes('eevee')) {
 				return;
 			}
 			if (target.types[0] !== 'Psychic') return;
@@ -3850,7 +3850,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			return null;
 		},
 		onAfterSetStatus(status, target, source, effect) {
-			if (!target.baseSpecies.id.includes('eeveemega') || !target.species.id.includes('eeveemega')) {
+			if (!target.baseSpecies.id.includes('eevee') || !target.species.id.includes('eevee')) {
 				return;
 			}
 			if (target.types[0] !== 'Dark') return;
@@ -3863,7 +3863,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			source.trySetStatus(status, target, {status: status.id, id: 'synchronize'} as Effect);
 		},
 		onModifySpe(spe, pokemon) {
-			if (!pokemon.baseSpecies.id.includes('eeveemega') || !pokemon.species.id.includes('eeveemega')) {
+			if (!pokemon.baseSpecies.id.includes('eevee') || !pokemon.species.id.includes('eevee')) {
 				return;
 			}
 			if (pokemon.types[0] !== 'Grass') return;
@@ -3872,7 +3872,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		onImmunity(type, pokemon) {
-			if (!pokemon.baseSpecies.id.includes('eeveemega') || !pokemon.species.id.includes('eeveemega')) {
+			if (!pokemon.baseSpecies.id.includes('eevee') || !pokemon.species.id.includes('eevee')) {
 				return;
 			}
 			if (pokemon.types[0] !== 'Ice') return;
@@ -3880,7 +3880,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyAccuracyPriority: 8,
 		onModifyAccuracy(accuracy, pokemon) {
-			if (!pokemon.baseSpecies.id.includes('eeveemega') || !pokemon.species.id.includes('eeveemega')) {
+			if (!pokemon.baseSpecies.id.includes('eevee') || !pokemon.species.id.includes('eevee')) {
 				return;
 			}
 			if (pokemon.types[0] !== 'Ice') return;
@@ -3891,7 +3891,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		onDamagingHit(damage, target, source, move) {
-			if (!target.baseSpecies.id.includes('eeveemega') || !target.species.id.includes('eeveemega')) {
+			if (!target.baseSpecies.id.includes('eevee') || !target.species.id.includes('eevee')) {
 				return;
 			}
 			if (target.types[0] !== 'Fairy') return;
