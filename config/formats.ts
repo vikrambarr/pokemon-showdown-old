@@ -23,7 +23,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "S/V Singles",
+		section: "Vanilla Gen 9 Singles",
 	},
 	{
 		name: "[Gen 9] Random Battle",
@@ -51,13 +51,6 @@ export const Formats: FormatList = [
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
 	},
 	{
-		name: "[Gen 9] FU",
-
-		mod: 'gen9',
-		ruleset: ['Standard NatDex'],
-		banlist: ['Uber', 'OU'],
-	},
-	{
 		name: "[Gen 9] Ubers",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3710870/">Ubers Metagame Discussion</a>`,
@@ -66,23 +59,6 @@ export const Formats: FormatList = [
 		mod: 'gen9',
 		ruleset: ['Standard'],
 		banlist: ['AG', 'King\'s Rock', 'Baton Pass'],
-	},
-	{
-		name: "[Gen 9] UU",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3713709/">UU Metagame Discussion</a>`,
-		],
-
-		mod: 'gen9',
-		ruleset: ['[Gen 9] OU'],
-		banlist: ['OU', 'UUBL'],
-	},
-	{
-		name: "[Gen 9] RU",
-
-		mod: 'gen9',
-		ruleset: ['[Gen 9] UU'],
-		banlist: ['UU', 'RUBL'],
 	},
 	{
 		name: "[Gen 9] LC",
@@ -108,7 +84,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "S/V Vanilla Doubles",
+		section: "Vanilla Gen 9 Doubles",
 	},
 	{
 		name: "[Gen 9] Doubles OU",
@@ -153,7 +129,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Vanilla National Dex",
+		section: "Bring Back ND AG!",
 	},
 	{
 		name: "[Gen 9] National Dex",
@@ -177,7 +153,7 @@ export const Formats: FormatList = [
 
 	////////////////////////////////////////
 	{
-		section: "Other Metagames",
+		section: "Goofy Gamemodes",
 	},
 	{
 		name: "[Gen 9] Balanced Hackmons",
@@ -194,25 +170,6 @@ export const Formats: FormatList = [
 			'Belly Drum', 'Last Respects', 'Revival Blessing', 'Shed Tail', 'Shell Smash', 'Rage Fist',
 		],
 	},
-	{
-		name: "[Gen 9] NFE",
-		desc: `Only Pok&eacute;mon that can evolve are allowed.`,
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3710638/">NFE</a>`,
-		],
-
-		mod: 'gen9',
-		ruleset: ['Standard OMs', 'Not Fully Evolved', 'Sleep Moves Clause', 'Terastal Clause', 'Min Source Gen = 9'],
-		banlist: [
-			'Bisharp', 'Chansey', 'Haunter', 'Magneton', 'Primeape', 'Scyther', 'Arena Trap', 'Shadow Tag', 'Baton Pass',
-			// Shouldn't be legal
-			'Stantler', 'Ursaring',
-		],
-	},
-
-	// Challengeable OMs
-	///////////////////////////////////////////////////////////////////
-
 	{
 		name: "[Gen 9] Pure Hackmons",
 		desc: `Anything directly hackable onto a set (EVs, IVs, forme, ability, item, and move) and is usable in local battles is allowed.`,
@@ -285,14 +242,6 @@ export const Formats: FormatList = [
 				this.boost({atk: 1, def: 1, spa: 1, spd: 1, spe: 1}, source, target, effect);
 			}
 		},
-	},
-
-	// Metronome Battle
-	///////////////////////////////////////////////////////////////////
-
-	{
-		section: "Metronome Battle",
-		column: 3,
 	},
 	{
 		name: '[Gen 9] Metronome Battle',
