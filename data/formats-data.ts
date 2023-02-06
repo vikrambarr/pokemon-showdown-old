@@ -7456,12 +7456,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 		natDexTier: "RU",
     },
-	eeveepremega: {
+	eeveemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "RU",
     },
-	eeveemegabase: {
+	eeveeinsurgence: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 		natDexTier: "UU",
