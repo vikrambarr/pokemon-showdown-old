@@ -6886,6 +6886,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
     	tier: "Illegal",
     },
+	feebasdelta: {
+		isNonstandard: "Custom",
+    	tier: "Illegal",
+    },
 	miloticdelta: {
 		isNonstandard: "Custom",
     	tier: "Illegal",
