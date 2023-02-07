@@ -6267,889 +6267,875 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	bulbasaurdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	ivysaurdelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     venusaurdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
     venusaurdeltamega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	charmanderdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	charmeleondelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     charizarddelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
     charizarddeltamega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	squirtledelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	wartortledelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     blastoisedelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	blastoisedeltamega: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	pawniarddelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     bisharpdelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	bisharpdeltamega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	bisharpmega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	raltsdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	kirliadelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     gardevoirdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	gardevoirdeltamega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
     galladedelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	galladedeltamega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	sunkerndelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     sunfloradelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	sunfloradeltamega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	sunfloramegam: {
-		tier: "UU"
+		natDexTier: "UU"
 	},
 	sunfloramegaf: {
-		tier: "UU"
+		natDexTier: "UU"
 	},
 	bergmitedelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     avaluggdelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	scytherdelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
     scizordelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	scizordeltamega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	scraggydelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     scraftydelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	combeedelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	vespiquendelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	koffingdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     weezingdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	purrloindelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     lieparddelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	phantumpdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     trevenantdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	snoruntdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     glaliedelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	glaliedeltamega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	froslassdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	froslassdeltamega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	froslassmega: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	shinxdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	luxiodelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     luxraydelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	noibatdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     noiverndelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	budewdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	roseliadelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     roseradedelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	drifloondelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     drifblimdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	grimerdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     mukdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	wooperdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     quagsiredelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	munchlaxdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     snorlaxdelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	misdreavusdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     mismagiusdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	cyndaquildelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	quilavadelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     typhlosiondelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	typhlosiondeltamega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	typhlosiondeltamegaactive: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	treeckodelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	grovyledelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     sceptiledelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	torchicdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	combuskendelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     blazikendelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	turtwigdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	grotledelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     torterradelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	snivydelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	servinedelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     serperiordelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	froakiedelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	frogadierdelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     greninjadelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	pidgeydelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	pidgeottodelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     pidgeotdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	pidgeotdeltamega: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	diglettdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     dugtriodelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	growlithedelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     arcaninedelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	geodudedelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	gravelerdelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     golemdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	tentacooldelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     tentacrueldelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	doduodelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     dodriodelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	tangeladelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     tangrowthdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	dittodelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	kabutodelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     kabutopsdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	dratinidelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	dragonairdelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     dragonitedelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	hoothootdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     noctowldelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	chinchoudelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     lanturndelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	pichudelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	pikachudelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     raichudelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	aipomdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     ambipomdelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	yanmadelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     yanmegadelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	girafarigdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	girafarigdeltamega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	girafarigmega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	dunsparcedelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	shuckledelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	remoraiddelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     octillerydelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	elekiddelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	electabuzzdelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     electiviredelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	magbydelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	magmardelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     magmortardelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	lotaddelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	lombredelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     ludicolodelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	seedotdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	nuzleafdelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     shiftrydelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	shiftrymega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	sableyedelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	sableyedeltamega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	mawiledelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	mawiledeltamega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	arondelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	lairondelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     aggrondelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	medititedelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     medichamdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	medichamdeltamega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	numeldelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     cameruptdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	cameruptdeltamega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	plusledelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
     minundelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	wailmerdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     wailorddelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	feebasdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	miloticdelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	miloticdeltamega: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	miloticmega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	clamperldelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     huntaildelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     gorebyssdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	beldumdeltas: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	metangdeltas: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     metagrossdeltas: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	metagrossdeltasmega: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	beldumdeltar: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	metangdeltar: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     metagrossdeltar: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	metagrossdeltarmega: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	metagrossdeltarcrystal: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	bunearydelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     lopunnydelta: {
-		tier: "RU",
+		natDexTier: "RU",
 	},
 	lopunnydeltamega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	rioludelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     lucariodelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	lucariodeltamega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	croagunkdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     toxicroakdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	venipededelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	whirlipededelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     scolipededelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	petilildeltaw: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     lilligantdeltaw: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	petilildeltaf: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     lilligantdeltaf: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	solosisdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	duosiondelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     reuniclusdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	darumakadelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     darmanitandelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	maractusdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	dwebbledeltab: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     crustledeltab: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	dwebbledeltac: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     crustledeltac: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	yamaskdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     cofagrigusdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	emolgadelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	emolgadeltafired: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	karrablastdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     escavalierdelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	foongusdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     amoongussdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	litwickdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	lampentdelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     chandeluredelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	axewdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	fraxuredelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     haxorusdelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	haxorusmega: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	golettdelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     golurkdelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	heatmordelta: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	deinodelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	zweilousdelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     hydreigondelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	hydreigonmegafive: {
-		tier: "Uber",
+		natDexTier: "Uber",
 	},
 	hydreigonmegasix: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	hydreigonmegaseven: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	hydreigonmegaeight: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	hydreigonmeganine: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	larvestadelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     volcaronadelta: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	volcaronadeltaarmor: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	amauradelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
     aurorusdelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	goomydelta: {
-		tier: "LC",
+		natDexTier: "LC",
     },
 	sliggoodelta: {
-		tier: "NFE",
+		natDexTier: "NFE",
     },
     goodradelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	regirockdelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	regicedelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	registeeldelta: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	meloettadeltamime: {
-		tier: "OU",
+		natDexTier: "OU",
     },
     meloettadeltamagician: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	hoopadelta: {
-		tier: "UU",
+		natDexTier: "UU",
     },
     hoopadeltaunleashed: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	poliwrathmega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	marowakmega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	eeveemega: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	eeveeinsurgence: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	eeveemegav: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	eeveemegaj: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	eeveemegaf: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	eeveemegae: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	eeveemegau: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	eeveemegal: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	eeveemegag: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	eeveemegas: {
 		isNonstandard: "Unobtainable",
-		tier: "Illegal",
 		natDexTier: "Illegal",
 	},
 	mewtwoarmor: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	mewtwoshadow: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	mewtwoshadowmega: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	meganiummega: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	typhlosionmega: {
-		tier: "OU",
+		natDexTier: "OU",
 	},
 	feraligatrmega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	sudowoodomega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	politoedmega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	steelixmegasteel: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	steelixmegafire: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	magcargomega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	donphanmega: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	miltankmega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	flygonmega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	flygonarmor: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	cacturnemega: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	crawdauntmega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	jirachimega: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	chatotmega: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	spiritombmega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	zebstrikamega: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	zoroarkmega: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	gothitellemega: {
-		tier: "UU",
+		natDexTier: "UU",
     },
 	reuniclusmega: {
-		tier: "UU"
+		natDexTier: "UU"
 	},
 	cryogonalmega: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	stunfiskmega: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	zekromarmor: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	tyranitararmor: {
-		tier: "OU",
+		natDexTier: "OU",
     },
 	leavannyarmor: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	arceusprimal: {
-		tier: "AG",
+		natDexTier: "AG",
     },
 	giratinaprimal: {
-		tier: "AG",
+		natDexTier: "AG",
     },
 	regigigasprimal: {
-		tier: "Uber",
+		natDexTier: "Uber",
     },
 	ufi: {
-		tier: "Uber",
+		natDexTier: "Uber",
 	},
 	castformsandy: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 	castformcloudy: {
-		tier: "RU",
+		natDexTier: "RU",
     },
 };
