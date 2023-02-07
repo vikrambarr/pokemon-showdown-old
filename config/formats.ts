@@ -21,7 +21,16 @@ export const Formats: FormatList = [
 
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
-
+	{
+		section: "Insurgence Draft",
+	},
+	{
+		name: "HBF",
+		desc: `Includes all HBF changes and standard ruleset.`,
+		mod: 'insurgencehbf',
+		ruleset: ['Standard'],
+		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
+	},
 	{
 		section: "Vanilla Gen 9 Singles",
 	},
