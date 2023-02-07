@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 
-export const Learnsets: {[speciesid: string]: ModdedLearnsetData} = {
+export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	missingno: {
 		learnset: {
 			blizzard: ["3L1"],
