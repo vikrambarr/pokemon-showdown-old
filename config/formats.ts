@@ -25,7 +25,7 @@ export const Formats: FormatList = [
 		section: "Insurgence Draft",
 	},
 	{
-		name: "[Gen 9] HBF",
+		name: "HBF",
 		desc: `Includes all HBF changes and standard ruleset.`,
 		mod: 'insurgencehbf',
 		ruleset: ['Standard'],
