@@ -23,6 +23,16 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
+		section: "Insurgence Formats",
+	},
+	{
+		name: "[Gen 9] HBF OU",
+
+		mod: 'insurgencehbf',
+		ruleset: ['Standard'],
+		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
+	},
+	{
 		section: "Vanilla Gen 9 Singles",
 	},
 	{
