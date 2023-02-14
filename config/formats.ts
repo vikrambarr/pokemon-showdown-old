@@ -26,7 +26,7 @@ export const Formats: FormatList = [
 		section: "Insurgence Formats",
 	},
 	{
-		name: "[Gen 9] HBF OU",
+		name: "[Gen 9 Insurgence] OU",
 
 		mod: 'insurgencehbf',
 		ruleset: ['Standard'],
