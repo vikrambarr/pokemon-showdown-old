@@ -6310,7 +6310,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	pawniarddelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     bisharpdelta: {
 		
@@ -6326,11 +6326,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	raltsdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	kirliadelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     gardevoirdelta: {
 		
@@ -6350,7 +6350,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	sunkerndelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     sunfloradelta: {
 		
@@ -6362,7 +6362,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	bergmitedelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     avaluggdelta: {
 		
@@ -6370,7 +6370,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	scytherdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     scizordelta: {
 		
@@ -6382,7 +6382,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	scraggydelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     scraftydelta: {
 		
@@ -6390,7 +6390,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	combeedelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	vespiquendelta: {
 		
@@ -6398,7 +6398,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	koffingdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     weezingdelta: {
 		
@@ -6406,7 +6406,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	purrloindelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     lieparddelta: {
 		
@@ -6414,7 +6414,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	phantumpdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     trevenantdelta: {
 		
@@ -6422,7 +6422,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	snoruntdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     glaliedelta: {
 		
@@ -6446,11 +6446,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	shinxdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	luxiodelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     luxraydelta: {
 		
@@ -6458,7 +6458,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	noibatdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     noiverndelta: {
 		
@@ -6466,11 +6466,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	budewdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	roseliadelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     roseradedelta: {
 		
@@ -6478,7 +6478,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	drifloondelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     drifblimdelta: {
 		
@@ -6486,7 +6486,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	grimerdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     mukdelta: {
 		
@@ -6494,7 +6494,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	wooperdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     quagsiredelta: {
 		
@@ -6502,7 +6502,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	munchlaxdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     snorlaxdelta: {
 		
@@ -6510,7 +6510,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	misdreavusdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     mismagiusdelta: {
 		
@@ -6518,11 +6518,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	cyndaquildelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	quilavadelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     typhlosiondelta: {
 		
@@ -6538,11 +6538,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	treeckodelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	grovyledelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     sceptiledelta: {
 		
@@ -6550,11 +6550,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	torchicdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	combuskendelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     blazikendelta: {
 		
@@ -6562,11 +6562,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	turtwigdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	grotledelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     torterradelta: {
 		
@@ -6574,11 +6574,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	snivydelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	servinedelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     serperiordelta: {
 		
@@ -6586,11 +6586,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	froakiedelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	frogadierdelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     greninjadelta: {
 		
@@ -6598,11 +6598,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	pidgeydelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	pidgeottodelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     pidgeotdelta: {
 		
@@ -6614,7 +6614,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	diglettdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     dugtriodelta: {
 		
@@ -6622,7 +6622,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	growlithedelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     arcaninedelta: {
 		
@@ -6630,11 +6630,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	geodudedelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	gravelerdelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     golemdelta: {
 		
@@ -6642,7 +6642,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	tentacooldelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     tentacrueldelta: {
 		
@@ -6650,7 +6650,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	doduodelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     dodriodelta: {
 		
@@ -6658,7 +6658,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	tangeladelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     tangrowthdelta: {
 		
@@ -6670,7 +6670,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	kabutodelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     kabutopsdelta: {
 		
@@ -6678,11 +6678,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	dratinidelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	dragonairdelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     dragonitedelta: {
 		
@@ -6690,7 +6690,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	hoothootdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     noctowldelta: {
 		
@@ -6698,7 +6698,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	chinchoudelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     lanturndelta: {
 		
@@ -6706,7 +6706,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	pichudelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	pikachudelta: {
 		
@@ -6718,7 +6718,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	aipomdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     ambipomdelta: {
 		
@@ -6726,7 +6726,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	yanmadelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     yanmegadelta: {
 		
@@ -6754,7 +6754,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	remoraiddelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     octillerydelta: {
 		
@@ -6762,11 +6762,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	elekiddelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	electabuzzdelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     electiviredelta: {
 		
@@ -6774,11 +6774,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	magbydelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	magmardelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     magmortardelta: {
 		
@@ -6786,11 +6786,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	lotaddelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	lombredelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     ludicolodelta: {
 		
@@ -6798,11 +6798,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	seedotdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	nuzleafdelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     shiftrydelta: {
 		
@@ -6830,11 +6830,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	arondelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	lairondelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     aggrondelta: {
 		
@@ -6842,7 +6842,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	medititedelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     medichamdelta: {
 		
@@ -6854,7 +6854,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	numeldelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     cameruptdelta: {
 		
@@ -6874,7 +6874,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	wailmerdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     wailorddelta: {
 		
@@ -6882,7 +6882,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	feebasdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	miloticdelta: {
 		
@@ -6898,11 +6898,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	clamperldelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     huntaildelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     gorebyssdelta: {
 		
@@ -6910,11 +6910,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	beldumdeltas: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	metangdeltas: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     metagrossdeltas: {
 		
@@ -6926,11 +6926,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	beldumdeltar: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	metangdeltar: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     metagrossdeltar: {
 		
@@ -6946,7 +6946,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	bunearydelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     lopunnydelta: {
 		
@@ -6958,7 +6958,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	rioludelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     lucariodelta: {
 		
@@ -6970,7 +6970,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	croagunkdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     toxicroakdelta: {
 		
@@ -6978,11 +6978,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	venipededelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	whirlipededelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     scolipededelta: {
 		
@@ -6990,7 +6990,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	petilildeltaw: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     lilligantdeltaw: {
 		
@@ -6998,7 +6998,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	petilildeltaf: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     lilligantdeltaf: {
 		
@@ -7006,11 +7006,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	solosisdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	duosiondelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     reuniclusdelta: {
 		
@@ -7018,7 +7018,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	darumakadelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     darmanitandelta: {
 		
@@ -7030,7 +7030,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	dwebbledeltab: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     crustledeltab: {
 		
@@ -7038,7 +7038,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	dwebbledeltac: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     crustledeltac: {
 		
@@ -7046,7 +7046,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	yamaskdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     cofagrigusdelta: {
 		
@@ -7062,7 +7062,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	karrablastdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     escavalierdelta: {
 		
@@ -7070,7 +7070,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	foongusdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     amoongussdelta: {
 		
@@ -7078,11 +7078,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	litwickdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	lampentdelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     chandeluredelta: {
 		
@@ -7090,11 +7090,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	axewdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	fraxuredelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     haxorusdelta: {
 		
@@ -7106,7 +7106,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	golettdelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     golurkdelta: {
 		
@@ -7118,11 +7118,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	deinodelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	zweilousdelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     hydreigondelta: {
 		
@@ -7155,7 +7155,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	larvestadelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     volcaronadelta: {
 		
@@ -7167,7 +7167,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	amauradelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
     aurorusdelta: {
 		
@@ -7175,11 +7175,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     },
 	goomydelta: {
 		
-    	tier: "Illegal",
+    	tier: "LC",
     },
 	sliggoodelta: {
 		
-    	tier: "Illegal",
+    	tier: "NFE",
     },
     goodradelta: {
 		
