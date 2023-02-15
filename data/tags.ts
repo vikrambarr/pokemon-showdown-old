@@ -226,10 +226,6 @@ export const Tags: {[id: string]: TagData} = {
 		name: "ND AG",
 		speciesFilter: species => species.natDexTier === 'AG',
 	},
-	idag: {
-		name: "ID AG",
-		speciesFilter: species => species.natDexTier === 'IAG',
-	},
 	nduber: {
 		name: "ND Uber",
 		speciesFilter: species => species.natDexTier === 'Uber' || species.natDexTier === '(Uber)',
@@ -283,6 +279,10 @@ export const Tags: {[id: string]: TagData} = {
 	nonexistent: {
 		name: "Nonexistent",
 		genericFilter: thing => !!thing.isNonstandard && thing.isNonstandard !== 'Unobtainable',
+	},
+	insurgence: {
+		name: "Insurgence",
+		genericFilter: thing => thing.isNonstandard === 'Insurgence',
 	},
 
 	// filter columns
