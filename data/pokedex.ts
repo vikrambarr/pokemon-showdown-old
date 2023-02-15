@@ -26,6 +26,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.7,
 		weightkg: 6.9,
 		color: "Pink",
+		tags: ["Insurgence"],
 		evos: ["Ivysaur-Delta"],
 		eggGroups: ["Undiscovered"],
 	},
