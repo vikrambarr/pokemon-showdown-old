@@ -6267,9 +6267,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	bulbasaurdelta: {
-		isNonstandard: "Past",
+		isNonstandard: "Insurgence",
 		tier: "Illegal",
-		natDexTier: "LC",
+		natDexTier: "Illegal",
     },
 	ivysaurdelta: {
 		isNonstandard: "Past",
