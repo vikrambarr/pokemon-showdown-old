@@ -113,8 +113,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	venusaurdelta: {
 		num: 3,
 		name: "Venusaur-Delta",
-		baseSpecies: "Venusaur",
-		forme: "Delta",
 		types: ["Fairy", "Psychic"],
 		baseStats: {hp: 80, atk: 82, def: 83, spa: 100, spd: 100, spe: 80},
 		abilities: {0: "Psycho Call", H: "Regenerator"},
@@ -225,8 +223,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	charizarddelta: {
 		num: 6,
 		name: "Charizard-Delta",
-		baseSpecies: "Charizard",
-		forme: "Delta",
 		types: ["Ghost", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 78, atk: 84, def: 78, spa: 109, spd: 85, spe: 100},
@@ -384,8 +380,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	blastoisedelta: {
 		num: 9,
 		name: "Blastoise-Delta",
-		baseSpecies: "Blastoise",
-		forme: "Delta",
 		types: ["Dark", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 79, atk: 83, def: 100, spa: 85, spd: 105, spe: 78},
@@ -663,7 +657,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 18,
 		name: "Pidgeot-Delta-Mega",
 		baseSpecies: "Pidgeot-Delta",
-		forme: "Delta-Mega",
+		forme: "Mega",
 		types: ["Dark", "Dragon"],
 		baseStats: {hp: 83, atk: 80, def: 80, spa: 135, spd: 80, spe: 121},
 		abilities: {0: "Intimidate"},
