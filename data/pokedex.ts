@@ -9347,7 +9347,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Beldum", "Beldum-Delta-S", "Beldum-Delta-R"],
 	},
 	beldumdeltas: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 374,
 		name: "Beldum-Delta-S",
 		baseSpecies: "Beldum",
@@ -9363,7 +9363,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 	},
 	beldumdeltar: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 374,
 		name: "Beldum-Delta-R",
 		baseSpecies: "Beldum",
@@ -9396,7 +9396,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Metang", "Metang-Delta-S", "Metang-Delta-R"],
 	},
 	metangdeltas: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 375,
 		name: "Metang-Delta-S",
 		baseSpecies: "Metang",
@@ -9414,7 +9414,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 	},
 	metangdeltar: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 375,
 		name: "Metang-Delta-R",
 		baseSpecies: "Metang",
@@ -9448,7 +9448,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Metagross", "Metagross-Mega"],
 	},
 	metagrossdeltas: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 376,
 		name: "Metagross-Delta-S",
 		types: ["Ground", "Bug"],
@@ -9465,7 +9465,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Metagross-Delta-S", "Metagross-Delta-S-Mega"],
 	},
 	metagrossdeltar: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 376,
 		name: "Metagross-Delta-R",
 		types: ["Grass", "Rock"],
@@ -16049,7 +16049,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1,
 		color: "Black",
 		eggGroups: ["Undiscovered"],
-		tags: ["Mythical"],
+		tags: ["Mythical", "Insurgence"],
 		otherFormes: ["Meloetta-Delta-Magician"],
 		formeOrder: ["Meloetta-Delta-Mime", "Meloetta-Delta-Magician"],
 	},
@@ -16066,7 +16066,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1,
 		color: "Black",
 		eggGroups: ["Undiscovered"],
-		tags: ["Mythical"],
+		tags: ["Mythical", "Insurgence"],
 	},
 	genesect: {
 		num: 649,
@@ -17731,7 +17731,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 6.5,
 		color: "Blue",
 		weightkg: 490,
-		tags: ["Mythical"],
+		tags: ["Mythical", "Insurgence"],
 		eggGroups: ["Undiscovered"],
 		changesFrom: "Hoopa-Delta",
 	},
