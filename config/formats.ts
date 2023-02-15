@@ -57,7 +57,7 @@ export const Formats: FormatList = [
 		name: "[Gen 9] OU",
 
 		mod: 'gen9',
-		ruleset: ['Standard'],
+		ruleset: ['Standard', '-Insurgence'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
 	},
 	{
