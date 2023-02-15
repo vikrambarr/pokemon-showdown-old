@@ -281,7 +281,7 @@ export const Tags: {[id: string]: TagData} = {
 		genericFilter: thing => !!thing.isNonstandard && thing.isNonstandard !== 'Unobtainable',
 	},
 	insurgence: {
-		name: "Custom",
+		name: "Insurgence",
 		genericFilter: thing => thing.isNonstandard === 'Insurgence',
 	},
 

@@ -151,7 +151,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen9',
-		ruleset: ['Standard NatDex', '-Insurgence'],
+		ruleset: ['Standard NatDex', '-Nonexistent'],
 	},
 
 	////////////////////////////////////////
