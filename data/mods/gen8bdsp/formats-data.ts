@@ -2142,6 +2142,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	bulbasaurdelta: {
 		inherit: true,
+		isNonstandard: "Past",
 		tier: "LC",
 	}
 };
