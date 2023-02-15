@@ -50,6 +50,11 @@ export const Tags: {[id: string]: TagData} = {
 		name: "Paradox",
 		speciesFilter: species => species.tags.includes("Paradox"),
 	},
+	insurgence: {
+		name: "Insurgence",
+		speciesFilter: species => species.tags.includes("Insurgence"),
+	},
+
 
 	// Move tags
 	// ---------
@@ -276,13 +281,9 @@ export const Tags: {[id: string]: TagData} = {
 		name: "Custom",
 		genericFilter: thing => thing.isNonstandard === 'Custom',
 	},
-	insurgence: {
-		name: "Insurgence",
-		genericFilter: thing => thing.isNonstandard === 'Insurgence',
-	},
 	nonexistent: {
 		name: "Nonexistent",
-		genericFilter: thing => !!thing.isNonstandard && thing.isNonstandard !== 'Unobtainable' && thing.isNonstandard !== 'Insurgence',
+		genericFilter: thing => !!thing.isNonstandard && thing.isNonstandard !== 'Unobtainable',
 	},
 
 	// filter columns
