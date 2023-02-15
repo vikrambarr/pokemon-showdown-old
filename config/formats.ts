@@ -26,6 +26,12 @@ export const Formats: FormatList = [
 		section: "Insurgence Formats",
 	},
 	{
+		name: "[Gen 8 BDSP] actually insurgence hehe",
+		mod: 'gen8bdsp',
+		ruleset: ['Standard'],
+		banlist: ['Uber', 'Arena Trap', 'Drizzle', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass'],
+	},
+	{
 		section: "Vanilla Gen 9 Singles",
 	},
 	{
@@ -181,7 +187,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen9',
-		ruleset: ['-Nonexistent', '-Insurgence', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
+		ruleset: ['-Nonexistent', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
 	},
 
 	{
