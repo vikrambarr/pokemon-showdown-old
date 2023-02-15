@@ -26,13 +26,13 @@ export const Formats: FormatList = [
 		section: "Universal Formats",
 	},
 	{
-		name: "[Gen 9] National Dex Universal",
+		name: "[Gen 9] Insurgence HBF",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3672423/">National Dex AG</a>`,
 		],
 
 		mod: 'gen9',
-		ruleset: ['Standard NatDex', '-Insurgence'],
+		ruleset: ['Standard NatDex'],
 	},
 	{
 		section: "Vanilla Gen 9 Singles",
