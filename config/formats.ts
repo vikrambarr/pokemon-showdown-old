@@ -152,7 +152,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen9',
 		ruleset: ['Standard NatDex'],
-		banlist: ['Delta'],
+		banlist: ['Insurgence'],
 	},
 
 	////////////////////////////////////////
