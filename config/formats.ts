@@ -50,7 +50,10 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen9',
-		ruleset: ['Standard NatDex'],
+		ruleset: [
+			'Standard NatDex', 
+			'-Bulbasaur-Delta + Magical Leaf',
+		],
 	},
 	{
 		section: "Vanilla Gen 9 Singles",
