@@ -25,7 +25,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		abilities: {0: "Psycho Call", H: "Regenerator"},
 		heightm: 0.7,
 		weightkg: 6.9,
-		tags: ["Insurgence"],
 		color: "Pink",
 		evos: ["Ivysaur-Delta"],
 		eggGroups: ["Undiscovered"],
