@@ -26,6 +26,13 @@ export const Formats: FormatList = [
 		section: "Insurgence Formats",
 	},
 	{
+		name: "[Gen 8 BDSP] Draft",
+
+		mod: 'gen8bdsp',
+		searchShow: false,
+		ruleset: ['Draft'],
+	},
+	{
 		section: "Vanilla Gen 9 Singles",
 	},
 	{
@@ -151,7 +158,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen9',
-		ruleset: ['Standard NatDex'],
+		ruleset: ['Standard NatDex', '-Insurgence'],
 	},
 
 	////////////////////////////////////////
