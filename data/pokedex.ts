@@ -15,6 +15,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Bulbasaur", "Bulbasaur-Delta"],
 	},
 	bulbasaurdelta: {
+		tags: ["Insurgence"],
 		num: 1,
 		name: "Bulbasaur-Delta",
 		baseSpecies: "Bulbasaur",
@@ -26,7 +27,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.7,
 		weightkg: 6.9,
 		color: "Pink",
-		tags: ["Insurgence"],
 		evos: ["Ivysaur-Delta"],
 		eggGroups: ["Undiscovered"],
 	},
@@ -48,6 +48,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Ivysaur", "Ivysaur-Delta"],
 	},
 	ivysaurdelta: {
+		tags: ["Insurgence"],
 		num: 2,
 		name: "Ivysaur-Delta",
 		baseSpecies: "Ivysaur",
@@ -112,6 +113,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		changesFrom: "Venusaur",
 	},
 	venusaurdelta: {
+		tags: ["Insurgence"],
 		num: 3,
 		name: "Venusaur-Delta",
 		baseSpecies: "Venusaur",
@@ -129,6 +131,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Venusaur-Delta", "Venusaur-Delta-Mega"],
 	},
 	venusaurdeltamega: {
+		tags: ["Insurgence"],
 		num: 3,
 		name: "Venusaur-Delta-Mega",
 		baseSpecies: "Venusaur-Delta",
@@ -158,6 +161,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Charmander", "Charmander-Delta"],
 	},
 	charmanderdelta: {
+		tags: ["Insurgence"],
 		num: 4,
 		name: "Charmander-Delta",
 		baseSpecies: "Charmander",
@@ -190,6 +194,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Charmeleon", "Charmeleon-Delta"],
 	},
 	charmeleondelta: {
+		tags: ["Insurgence"],
 		num: 5,
 		name: "Charmeleon-Delta",
 		baseSpecies: "Charmeleon",
@@ -224,6 +229,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		canGigantamax: "G-Max Wildfire",
 	},
 	charizarddelta: {
+		tags: ["Insurgence"],
 		num: 6,
 		name: "Charizard-Delta",
 		baseSpecies: "Charizard",
@@ -272,6 +278,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Charizardite Y",
 	},
 	charizarddeltamega: {
+		tags: ["Insurgence"],
 		num: 6,
 		name: "Charizard-Delta-Mega",
 		baseSpecies: "Charizard-Delta",
@@ -317,6 +324,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Squirtle", "Squirtle-Delta"],
 	},
 	squirtledelta: {
+		tags: ["Insurgence"],
 		num: 7,
 		name: "Squirtle-Delta",
 		baseSpecies: "Squirtle",
@@ -349,6 +357,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Wartortle", "Wartortle-Delta"],
 	},
 	wartortledelta: {
+		tags: ["Insurgence"],
 		num: 8,
 		name: "Wartortle-Delta",
 		baseSpecies: "Wartortle",
@@ -383,6 +392,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		canGigantamax: "G-Max Cannonade",
 	},
 	blastoisedelta: {
+		tags: ["Insurgence"],
 		num: 9,
 		name: "Blastoise-Delta",
 		baseSpecies: "Blastoise",
@@ -416,6 +426,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Blastoisinite",
 	},
 	blastoisedeltamega: {
+		tags: ["Insurgence"],
 		num: 9,
 		name: "Blastoise-Delta-Mega",
 		baseSpecies: "Blastoise-Delta",
@@ -569,6 +580,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Pidgey", "Pidgey-Delta"],
 	},
 	pidgeydelta: {
+		tags: ["Insurgence"],
 		num: 16,
 		name: "Pidgey-Delta",
 		baseSpecies: "Pidgey",
@@ -599,6 +611,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Pidgeotto", "Pidgeotto-Delta"],
 	},
 	pidgeottodelta: {
+		tags: ["Insurgence"],
 		num: 17,
 		name: "Pidgeotto-Delta",
 		baseSpecies: "Pidgeotto",
@@ -630,6 +643,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Pidgeot", "Pidgeot-Mega"],
 	},
 	pidgeotdelta: {
+		tags: ["Insurgence"],
 		num: 18,
 		name: "Pidgeot-Delta",
 		baseSpecies: "Pidgeot",
@@ -661,6 +675,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Pidgeotite",
 	},
 	pidgeotdeltamega: {
+		tags: ["Insurgence"],
 		num: 18,
 		name: "Pidgeot-Delta-Mega",
 		baseSpecies: "Pidgeot-Delta",
@@ -1062,6 +1077,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		gen: 8,
 	},
 	pikachudelta: {
+		tags: ["Insurgence"],
 		num: 25,
 		name: "Pikachu-Delta",
 		baseSpecies: "Pikachu",
@@ -1111,6 +1127,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field", "Fairy"],
 	},
 	raichudelta: {
+		tags: ["Insurgence"],
 		num: 26,
 		name: "Raichu-Delta",
 		baseSpecies: "Raichu",
@@ -1540,6 +1557,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	diglettdelta: {
+		tags: ["Insurgence"],
 		num: 50,
 		name: "Diglett-Delta",
 		baseSpecies: "Diglett",
@@ -1584,6 +1602,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	dugtriodelta: {
+		tags: ["Insurgence"],
 		num: 51,
 		name: "Dugtrio-Delta",
 		baseSpecies: "Dugtrio",
@@ -1752,6 +1771,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Growlithe", "Growlithe-Delta", "Growlithe-Hisui"],
 	},
 	growlithedelta: {
+		tags: ["Insurgence"],
 		num: 58,
 		name: "Growlithe-Delta",
 		baseSpecies: "Growlithe",
@@ -1799,6 +1819,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Arcanine", "Arcanine-Delta", "Arcanine-Hisui"],
 	},
 	arcaninedelta: {
+		tags: ["Insurgence"],
 		num: 59,
 		name: "Arcanine-Delta",
 		baseSpecies: "Arcanine",
@@ -1875,6 +1896,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Poliwrath", "Poliwrath-Mega"],
 	},
 	poliwrathmega: {
+		tags: ["Insurgence"],
 		num: 62,
 		name: "Poliwrath-Mega",
 		baseSpecies: "Poliwrath",
@@ -2060,6 +2082,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Tentacool", "Tentacool-Delta"],
 	},
 	tentacooldelta: {
+		tags: ["Insurgence"],
 		num: 72,
 		name: "Tentacool-Delta",
 		baseSpecies: "Tentacool",
@@ -2089,6 +2112,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Tentacruel", "Tentacruel-Delta"],
 	},
 	tentacrueldelta: {
+		tags: ["Insurgence"],
 		num: 73,
 		name: "Tentacruel-Delta",
 		baseSpecies: "Tentacruel",
@@ -2132,6 +2156,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	geodudedelta: {
+		tags: ["Insurgence"],
 		num: 74,
 		name: "Geodude-Delta",
 		baseSpecies: "Geodude",
@@ -2178,6 +2203,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	gravelerdelta: {
+		tags: ["Insurgence"],
 		num: 75,
 		name: "Graveler-Delta",
 		baseSpecies: "Graveler",
@@ -2224,6 +2250,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral"],
 	},
 	golemdelta: {
+		tags: ["Insurgence"],
 		num: 76,
 		name: "Golem-Delta",
 		baseSpecies: "Golem",
@@ -2439,6 +2466,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Doduo", "Doduo-Delta"],
 	},
 	doduodelta: {
+		tags: ["Insurgence"],
 		num: 84,
 		name: "Doduo-Delta",
 		baseSpecies: "Doduo",
@@ -2468,6 +2496,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Dodrio", "Dodrio-Delta"],
 	},
 	dodriodelta: {
+		tags: ["Insurgence"],
 		num: 85,
 		name: "Dodrio-Delta",
 		baseSpecies: "Dodrio",
@@ -2536,6 +2565,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	grimerdelta: {
+		tags: ["Insurgence"],
 		num: 88,
 		name: "Grimer-Delta",
 		baseSpecies: "Grimer",
@@ -2582,6 +2612,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	mukdelta: {
+		tags: ["Insurgence"],
 		num: 89,
 		name: "Muk-Delta",
 		baseForme: "Water",
@@ -2936,6 +2967,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster"],
 	},
 	marowakmega: {
+		tags: ["Insurgence"],
 		num: 105,
 		name: "Marowak-Mega",
 		baseSpecies: "Marowak",
@@ -3006,6 +3038,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Koffing", "Koffing-Delta"],
 	},
 	koffingdelta: {
+		tags: ["Insurgence"],
 		num: 109,
 		name: "Koffing-Delta",
 		baseSpecies: "Koffing",
@@ -3051,6 +3084,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Amorphous"],
 	},
 	weezingdelta: {
+		tags: ["Insurgence"],
 		num: 110,
 		name: "Weezing-Delta",
 		baseSpecies: "Weezing",
@@ -3124,6 +3158,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Tangela", "Tangela-Delta"],
 	},
 	tangeladelta: {
+		tags: ["Insurgence"],
 		num: 114,
 		name: "Tangela-Delta",
 		baseSpecies: "Tangela",
@@ -3296,6 +3331,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Scyther", "Scyther-Delta"],
 	},
 	scytherdelta: {
+		tags: ["Insurgence"],
 		num: 123,
 		name: "Scyther-Delta",
 		baseSpecies: "Scyther",
@@ -3341,6 +3377,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Electabuzz", "Electabuzz-Delta"],
 	},
 	electabuzzdelta: {
+		tags: ["Insurgence"],
 		num: 125,
 		name: "Electabuzz-Delta",
 		baseSpecies: "Electabuzz",
@@ -3375,6 +3412,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Magmar", "Magmar-Delta"],
 	},
 	magmardelta: {
+		tags: ["Insurgence"],
 		num: 126,
 		name: "Magmar-Delta",
 		baseSpecies: "Magmar",
@@ -3554,6 +3592,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Ditto"],
 	},
 	dittodelta: {
+		tags: ["Insurgence"],
 		num: 132,
 		name: "Ditto-Delta",
 		baseSpecies: "Ditto",
@@ -3584,6 +3623,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		canGigantamax: "G-Max Cuddle",
 	},
 	eeveeinsurgence: {
+		tags: ["Insurgence"],
 		num: 133,
 		name: "Eevee-Insurgence",
 		types: ["Normal"],
@@ -3596,6 +3636,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	eeveemega: {
+		tags: ["Insurgence"],
 		num: 133,
 		name: "Eevee-Mega",
 		baseSpecies: "Eevee-Insurgence",
@@ -3612,6 +3653,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		battleOnly: "Eevee-Insurgence",
 	},
 	eeveemegav: {
+		tags: ["Insurgence"],
 		num: 133,
 		name: "Eevee-Mega-V",
 		baseSpecies: "Eevee",
@@ -3628,6 +3670,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		battleOnly: "Eevee",
 	},
 	eeveemegaj: {
+		tags: ["Insurgence"],
 		num: 133,
 		name: "Eevee-Mega-J",
 		baseSpecies: "Eevee",
@@ -3644,6 +3687,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		battleOnly: "Eevee",
 	},
 	eeveemegaf: {
+		tags: ["Insurgence"],
 		num: 133,
 		name: "Eevee-Mega-F",
 		baseSpecies: "Eevee",
@@ -3660,6 +3704,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		battleOnly: "Eevee",
 	},
 	eeveemegae: {
+		tags: ["Insurgence"],
 		num: 133,
 		name: "Eevee-Mega-E",
 		baseSpecies: "Eevee",
@@ -3676,6 +3721,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		battleOnly: "Eevee",
 	},
 	eeveemegau: {
+		tags: ["Insurgence"],
 		num: 133,
 		name: "Eevee-Mega-U",
 		baseSpecies: "Eevee",
@@ -3692,6 +3738,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		battleOnly: "Eevee",
 	},
 	eeveemegal: {
+		tags: ["Insurgence"],
 		num: 133,
 		name: "Eevee-Mega-L",
 		baseSpecies: "Eevee",
@@ -3708,6 +3755,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		battleOnly: "Eevee",
 	},
 	eeveemegag: {
+		tags: ["Insurgence"],
 		num: 133,
 		name: "Eevee-Mega-G",
 		baseSpecies: "Eevee",
@@ -3724,6 +3772,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		battleOnly: "Eevee",
 	},
 	eeveemegas: {
+		tags: ["Insurgence"],
 		num: 133,
 		name: "Eevee-Mega-S",
 		baseSpecies: "Eevee",
@@ -3869,6 +3918,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Kabuto", "Kabuto-Delta"],
 	},
 	kabutodelta: {
+		tags: ["Insurgence"],
 		num: 140,
 		name: "Kabuto-Delta",
 		baseSpecies: "Kabuto",
@@ -3900,6 +3950,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Kabutops", "Kabutops-Delta"],
 	},
 	kabutopsdelta: {
+		tags: ["Insurgence"],
 		num: 141,
 		name: "Kabutops-Delta",
 		baseSpecies: "Kabutops",
@@ -3977,6 +4028,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		changesFrom: "Snorlax",
 	},
 	snorlaxdelta: {
+		tags: ["Insurgence"],
 		num: 143,
 		name: "Snorlax-Delta",
 		baseForme: "Summer",
@@ -4095,6 +4147,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Dratini", "Dratini-Delta"],
 	},
 	dratinidelta: {
+		tags: ["Insurgence"],
 		num: 147,
 		name: "Dratini-Delta",
 		baseSpecies: "Dratini",
@@ -4125,6 +4178,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Dragonair", "Dragonair-Delta"],
 	},
 	dragonairdelta: {
+		tags: ["Insurgence"],
 		num: 148,
 		name: "Dragonair-Delta",
 		baseSpecies: "Dragonair",
@@ -4156,6 +4210,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Dragonite", "Dragonite-Delta"],
 	},
 	dragonitedelta: {
+		tags: ["Insurgence"],
 		num: 149,
 		name: "Dragonite-Delta",
 		baseSpecies: "Dragonite",
@@ -4216,6 +4271,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Mewtwonite Y",
 	},
 	mewtwoarmor: {
+		tags: ["Insurgence"],
 		num: 150,
 		name: "Mewtwo-Armor",
 		baseSpecies: "Mewtwo",
@@ -4249,6 +4305,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		gen: 6,
 	},
 	mewtwoshadowmega: {
+		tags: ["Insurgence"],
 		num: 150,
 		name: "Mewtwo-Shadow-Mega",
 		baseSpecies: "Mewtwo-Shadow",
@@ -4322,6 +4379,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Meganium", "Meganium-Mega"],
 	},
 	meganiummega: {
+		tags: ["Insurgence"],
 		num: 154,
 		name: "Meganium-Mega",
 		baseSpecies: "Meganium",
@@ -4352,6 +4410,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Cyndaquil", "Cyndaquil-Delta"],
 	},
 	cyndaquildelta: {
+		tags: ["Insurgence"],
 		num: 155,
 		name: "Cyndaquil-Delta",
 		baseSpecies: "Cyndaquil",
@@ -4384,6 +4443,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Quilava", "Quilava-Delta"],
 	},
 	quilavadelta: {
+		tags: ["Insurgence"],
 		num: 156,
 		name: "Quilava-Delta",
 		baseSpecies: "Quilava",
@@ -4417,6 +4477,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Typhlosion", "Typhlosion-Mega", "Typhlosion-Hisui"],
 	},
 	typhlosiondelta: {
+		tags: ["Insurgence"],
 		num: 157,
 		name: "Typhlosion-Delta",
 		baseSpecies: "Typhlosion",
@@ -4435,6 +4496,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Typhlosion-Delta", "Typhlosion-Delta-Mega", "Typhlosion-Delta-Mega-Active"],
 	},
 	typhlosionmega: {
+		tags: ["Insurgence"],
 		num: 157,
 		name: "Typhlosion-Mega",
 		baseSpecies: "Typhlosion",
@@ -4450,6 +4512,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Typhlosionite",
 	},
 	typhlosiondeltamega: {
+		tags: ["Insurgence"],
 		num: 157,
 		name: "Typhlosion-Delta-Mega",
 		baseSpecies: "Typhlosion-Delta",
@@ -4540,6 +4603,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Feraligatr", "Feraligatr-Mega"],
 	},
 	feraligatrmega: {
+		tags: ["Insurgence"],
 		num: 160,
 		name: "Feraligatr-Mega",
 		baseSpecies: "Feraligatr",
@@ -4594,6 +4658,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Hoothoot", "Hoothoot-Delta"],
 	},
 	hoothootdelta: {
+		tags: ["Insurgence"],
 		num: 163,
 		name: "Hoothoot-Delta",
 		baseSpecies: "Hoothoot",
@@ -4623,6 +4688,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Noctowl", "Noctowl-Delta"],
 	},
 	noctowldelta: {
+		tags: ["Insurgence"],
 		num: 164,
 		name: "Noctowl-Delta",
 		baseSpecies: "Noctowl",
@@ -4715,6 +4781,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Chinchou", "Chinchou-Delta"],
 	},
 	chinchoudelta: {
+		tags: ["Insurgence"],
 		num: 170,
 		name: "Chinchou-Delta",
 		baseSpecies: "Chinchou",
@@ -4744,6 +4811,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Lanturn", "Lanturn-Delta"],
 	},
 	lanturndelta: {
+		tags: ["Insurgence"],
 		num: 171,
 		name: "Lanturn-Delta",
 		baseSpecies: "Lanturn",
@@ -4788,6 +4856,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		gen: 4,
 	},
 	pichudelta: {
+		tags: ["Insurgence"],
 		num: 172,
 		name: "Pichu-Delta",
 		baseSpecies: "Pichu",
@@ -4998,6 +5067,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Sudowoodo", "Sudowoodo-Mega"],
 	},
 	sudowoodomega: {
+		tags: ["Insurgence"],
 		num: 185,
 		name: "Sudowoodo-Mega",
 		baseSpecies: "Sudowoodo",
@@ -5028,6 +5098,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Politoed", "Politoed-Mega"],
 	},
 	politoedmega: {
+		tags: ["Insurgence"],
 		num: 186,
 		name: "Politoed-Mega",
 		baseSpecies: "Politoed",
@@ -5095,6 +5166,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Aipom", "Aipom-Delta"],
 	},
 	aipomdelta: {
+		tags: ["Insurgence"],
 		num: 190,
 		name: "Aipom-Delta",
 		baseSpecies: "Aipom",
@@ -5123,6 +5195,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Sunkern", "Sunkern-Delta"],
 	},
 	sunkerndelta: {
+		tags: ["Insurgence"],
 		num: 191,
 		name: "Sunkern-Delta",
 		baseSpecies: "Sunkern",
@@ -5153,6 +5226,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Sunflora", "Sunflora-Mega-M", "Sunflora-Mega-F"],
 	},
 	sunfloradelta: {
+		tags: ["Insurgence"],
 		num: 192,
 		name: "Sunflora-Delta",
 		baseSpecies: "Sunflora",
@@ -5169,6 +5243,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Sunflora-Delta", "Sunflora-Delta-Mega"],
 	},
 	sunfloramegam: {
+		tags: ["Insurgence"],
 		num: 192,
 		name: "Sunflora-Mega-M",
 		baseSpecies: "Sunflora",
@@ -5184,6 +5259,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Sunflorite",
 	},
 	sunfloramegaf: {
+		tags: ["Insurgence"],
 		num: 192,
 		name: "Sunflora-Mega-F",
 		baseSpecies: "Sunflora",
@@ -5199,6 +5275,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Sunflorite",
 	},
 	sunfloradeltamega: {
+		tags: ["Insurgence"],
 		num: 192,
 		name: "Sunflora-Delta-Mega",
 		baseSpecies: "Sunflora-Delta",
@@ -5227,6 +5304,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Yanma", "Yanma-Delta"],
 	},
 	yanmadelta: {
+		tags: ["Insurgence"],
 		num: 193,
 		name: "Yanma-Delta",
 		baseSpecies: "Yanma",
@@ -5255,6 +5333,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Wooper", "Wooper-Delta", "Wooper-Paldea"],
 	},
 	wooperdelta: {
+		tags: ["Insurgence"],
 		num: 194,
 		name: "Wooper-Delta",
 		baseSpecies: "Wooper",
@@ -5298,6 +5377,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Quagsire", "Quagsire-Delta"],
 	},
 	quagsiredelta: {
+		tags: ["Insurgence"],
 		num: 195,
 		name: "Quagsire-Delta",
 		baseSpecies: "Quagsire",
@@ -5401,6 +5481,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Misdreavus", "Misdreavus-Delta"],
 	},
 	misdreavusdelta: {
+		tags: ["Insurgence"],
 		num: 200,
 		name: "Misdreavus-Delta",
 		baseSpecies: "Misdreavus",
@@ -5458,6 +5539,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Girafarig", "Girafarig-Mega"],
 	},
 	girafarigdelta: {
+		tags: ["Insurgence"],
 		num: 203,
 		name: "Girafarig-Delta",
 		baseSpecies: "Girafarig",
@@ -5473,6 +5555,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Girafarig-Delta", "Girafarig-Delta-Mega"],
 	},
 	girafarigmega: {
+		tags: ["Insurgence"],
 		num: 203,
 		name: "Girafarig-Mega",
 		baseSpecies: "Girafarig",
@@ -5487,6 +5570,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Etigirafarigite",
 	},
 	girafarigdeltamega: {
+		tags: ["Insurgence"],
 		num: 203,
 		name: "Girafarig-Delta-Mega",
 		baseSpecies: "Girafarig-Delta",
@@ -5540,6 +5624,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Dunsparce", "Dunsparce-Delta"],
 	},
 	dunsparcedelta: {
+		tags: ["Insurgence"],
 		num: 206,
 		name: "Dunsparce-Delta",
 		baseSpecies: "Dunsparce",
@@ -5679,6 +5764,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Scizor", "Scizor-Mega"],
 	},
 	scizordelta: {
+		tags: ["Insurgence"],
 		num: 212,
 		name: "Scizor-Delta",
 		baseSpecies: "Scizor",
@@ -5710,6 +5796,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Scizorite",
 	},
 	scizordeltamega: {
+		tags: ["Insurgence"],
 		num: 212,
 		name: "Scizor-Delta-Mega",
 		baseSpecies: "Scizor-Delta",
@@ -5737,6 +5824,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Shuckle", "Shuckle-Delta"],
 	},
 	shuckledelta: {
+		tags: ["Insurgence"],
 		num: 213,
 		name: "Shuckle-Delta",
 		baseSpecies: "Shuckle",
@@ -5858,6 +5946,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Magcargo", "Magcargo-Mega"],
 	},
 	magcargomega: {
+		tags: ["Insurgence"],
 		num: 219,
 		name: "Magcargo-Mega",
 		baseSpecies: "Magcargo",
@@ -5941,6 +6030,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Remoraid", "Remoraid-Delta"],
 	},
 	remoraiddelta: {
+		tags: ["Insurgence"],
 		num: 223,
 		name: "Remoraid-Delta",
 		baseSpecies: "Remoraid",
@@ -5970,6 +6060,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Octillery", "Octillery-Delta"],
 	},
 	octillerydelta: {
+		tags: ["Insurgence"],
 		num: 224,
 		name: "Octillery-Delta",
 		baseSpecies: "Octillery",
@@ -6103,6 +6194,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Donphan", "Donphan-Mega"],
 	},
 	donphanmega: {
+		tags: ["Insurgence"],
 		num: 232,
 		name: "Donphan-Mega",
 		baseSpecies: "Donphan",
@@ -6215,6 +6307,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		canHatch: true,
 	},
 	elekiddelta: {
+		tags: ["Insurgence"],
 		num: 239,
 		name: "Elekid-Delta",
 		baseSpecies: "Elekid",
@@ -6247,6 +6340,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		canHatch: true,
 	},
 	magbydelta: {
+		tags: ["Insurgence"],
 		num: 240,
 		name: "Magby-Delta",
 		baseSpecies: "Magby",
@@ -6277,6 +6371,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Miltank", "Miltank-Mega"],
 	},
 	miltankmega: {
+		tags: ["Insurgence"],
 		num: 241,
 		name: "Miltank-Mega",
 		baseSpecies: "Miltank",
@@ -6400,6 +6495,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Tyranitarite",
 	},
 	tyranitararmor: {
+		tags: ["Insurgence"],
 		num: 248,
 		name: "Tyranitar-Armor",
 		baseSpecies: "Tyranitar",
@@ -6470,6 +6566,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Treecko", "Treecko-Delta"],
 	},
 	treeckodelta: {
+		tags: ["Insurgence"],
 		num: 252,
 		name: "Treecko-Delta",
 		baseSpecies: "Treecko",
@@ -6502,6 +6599,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Grovyle", "Grovyle-Delta"],
 	},
 	grovyledelta: {
+		tags: ["Insurgence"],
 		num: 253,
 		name: "Grovyle-Delta",
 		baseSpecies: "Grovyle",
@@ -6535,6 +6633,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Sceptile", "Sceptile-Mega", "Sceptile-Delta"],
 	},
 	sceptiledelta: {
+		tags: ["Insurgence"],
 		num: 254,
 		name: "Sceptile-Delta",
 		baseSpecies: "Sceptile",
@@ -6581,6 +6680,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Torchic", "Torchic-Delta"],
 	},
 	torchicdelta: {
+		tags: ["Insurgence"],
 		num: 255,
 		name: "Torchic-Delta",
 		baseSpecies: "Torchic",
@@ -6613,6 +6713,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Combusken", "Combusken-Delta"],
 	},
 	combuskendelta: {
+		tags: ["Insurgence"],
 		num: 256,
 		name: "Combusken-Delta",
 		baseSpecies: "Combusken",
@@ -6646,6 +6747,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Blaziken", "Blaziken-Mega", "Blaziken-Delta"],
 	},
 	blazikendelta: {
+		tags: ["Insurgence"],
 		num: 257,
 		name: "Blaziken-Delta",
 		baseSpecies: "Blaziken",
@@ -6900,6 +7002,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Lotad", "Lotad-Delta"],
 	},
 	lotaddelta: {
+		tags: ["Insurgence"],
 		num: 270,
 		name: "Lotad-Delta",
 		baseSpecies: "Lotad",
@@ -6930,6 +7033,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Lombre", "Lombre-Delta"],
 	},
 	lombredelta: {
+		tags: ["Insurgence"],
 		num: 271,
 		name: "Lombre-Delta",
 		baseSpecies: "Lombre",
@@ -6962,6 +7066,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Ludicolo", "Ludicolo-Delta"],
 	},
 	ludicolodelta: {
+		tags: ["Insurgence"],
 		num: 272,
 		name: "Ludicolo-Delta",
 		baseSpecies: "Ludicolo",
@@ -6992,6 +7097,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Seedot", "Seedot-Delta"],
 	},
 	seedotdelta: {
+		tags: ["Insurgence"],
 		num: 273,
 		name: "Seedot-Delta",
 		baseSpecies: "Seedot",
@@ -7022,6 +7128,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Nuzleaf", "Nuzleaf-Delta"],
 	},
 	nuzleafdelta: {
+		tags: ["Insurgence"],
 		num: 274,
 		name: "Nuzleaf-Delta",
 		baseSpecies: "Nuzleaf",
@@ -7054,6 +7161,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Shiftry", "Shiftry-Mega", "Shiftry-Delta"],
 	},
 	shiftrydelta: {
+		tags: ["Insurgence"],
 		num: 275,
 		name: "Shiftry-Delta",
 		baseSpecies: "Shiftry",
@@ -7071,6 +7179,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 	},
 	shiftrymega: {
+		tags: ["Insurgence"],
 		num: 275,
 		name: "Shiftry-Mega",
 		baseSpecies: "Shiftry",
@@ -7149,6 +7258,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Ralts", "Ralts-Delta"],
 	},
 	raltsdelta: {
+		tags: ["Insurgence"],
 		num: 280,
 		name: "Ralts-Delta",
 		baseSpecies: "Ralts",
@@ -7179,6 +7289,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Kirlia", "Kirlia-Delta"],
 	},
 	kirliadelta: {
+		tags: ["Insurgence"],
 		num: 281,
 		name: "Kirlia-Delta",
 		baseSpecies: "Kirlia",
@@ -7210,6 +7321,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Gardevoir", "Gardevoir-Mega"],
 	},
 	gardevoirdelta: {
+		tags: ["Insurgence"],
 		num: 282,
 		name: "Gardevoir-Delta",
 		baseSpecies: "Gardevoir",
@@ -7241,6 +7353,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Gardevoirite",
 	},
 	gardevoirdeltamega: {
+		tags: ["Insurgence"],
 		num: 282,
 		name: "Gardevoir-Delta-Mega",
 		baseSpecies: "Gardevoir-Delta",
@@ -7517,6 +7630,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Sableye", "Sableye-Mega"],
 	},
 	sableyedelta: {
+		tags: ["Insurgence"],
 		num: 302,
 		name: "Sableye-Delta",
 		baseSpecies: "Sableye",
@@ -7546,6 +7660,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Sablenite",
 	},
 	sableyedeltamega: {
+		tags: ["Insurgence"],
 		num: 302,
 		name: "Sableye-Delta-Mega",
 		baseSpecies: "Sableye-Delta",
@@ -7573,6 +7688,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Mawile", "Mawile-Mega"],
 	},
 	mawiledelta: {
+		tags: ["Insurgence"],
 		num: 303,
 		name: "Mawile-Delta",
 		baseSpecies: "Mawile",
@@ -7602,6 +7718,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Mawilite",
 	},
 	mawiledeltamega: {
+		tags: ["Insurgence"],
 		num: 303,
 		name: "Mawile-Delta-Mega",
 		baseSpecies: "Mawile-Delta",
@@ -7630,6 +7747,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Aron", "Aron-Delta"],
 	},
 	arondelta: {
+		tags: ["Insurgence"],
 		num: 304,
 		name: "Aron-Delta",
 		baseSpecies: "Aron",
@@ -7660,6 +7778,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Lairon", "Lairon-Delta"],
 	},
 	lairondelta: {
+		tags: ["Insurgence"],
 		num: 305,
 		name: "Lairon-Delta",
 		baseSpecies: "Lairon",
@@ -7691,6 +7810,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Aggron", "Aggron-Mega", "Aggron-Delta"],
 	},
 	aggrondelta: {
+		tags: ["Insurgence"],
 		num: 306,
 		name: "Aggron-Delta",
 		baseSpecies: "Aggron",
@@ -7734,6 +7854,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Meditite", "Meditite-Delta"],
 	},
 	medititedelta: {
+		tags: ["Insurgence"],
 		num: 307,
 		name: "Meditite-Delta",
 		baseSpecies: "Meditite",
@@ -7763,6 +7884,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Medicham", "Medicham-Mega"],
 	},
 	medichamdelta: {
+		tags: ["Insurgence"],
 		num: 308,
 		name: "Medicham-Delta",
 		baseSpecies: "Medicham",
@@ -7794,6 +7916,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Medichamite",
 	},
 	medichamdeltamega: {
+		tags: ["Insurgence"],
 		num: 308,
 		name: "Medicham-Delta-Mega",
 		baseSpecies: "Medicham-Delta",
@@ -7862,6 +7985,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Plusle", "Plusle-Delta"],
 	},
 	plusledelta: {
+		tags: ["Insurgence"],
 		num: 311,
 		name: "Plusle-Delta",
 		baseSpecies: "Plusle",
@@ -7888,6 +8012,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Minun", "Minun-Delta"],
 	},
 	minundelta: {
+		tags: ["Insurgence"],
 		num: 312,
 		name: "Minun-Delta",
 		baseSpecies: "Minun",
@@ -7943,6 +8068,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		canHatch: true,
 	},
 	roseliadelta: {
+		tags: ["Insurgence"],
 		num: 315,
 		name: "Roselia-Delta",
 		baseSpecies: "Roselia",
@@ -8041,6 +8167,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Wailmer", "Wailmer-Delta"],
 	},
 	wailmerdelta: {
+		tags: ["Insurgence"],
 		num: 320,
 		name: "Wailmer-Delta",
 		baseSpecies: "Wailmer",
@@ -8070,6 +8197,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Wailord", "Wailord-Delta"],
 	},
 	wailorddelta: {
+		tags: ["Insurgence"],
 		num: 321,
 		name: "Wailord-Delta",
 		baseSpecies: "Wailord",
@@ -8099,6 +8227,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Numel", "Numel-Delta"],
 	},
 	numeldelta: {
+		tags: ["Insurgence"],
 		num: 322,
 		name: "Numel-Delta",
 		baseSpecies: "Numel",
@@ -8128,6 +8257,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Camerupt", "Camerupt-Mega"],
 	},
 	cameruptdelta: {
+		tags: ["Insurgence"],
 		num: 323,
 		name: "Camerupt-Delta",
 		baseSpecies: "Camerupt",
@@ -8159,6 +8289,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Cameruptite",
 	},
 	cameruptdeltamega: {
+		tags: ["Insurgence"],
 		num: 323,
 		name: "Camerupt-Delta-Mega",
 		baseSpecies: "Camerupt-Delta",
@@ -8261,6 +8392,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Flygon", "Flygon-Mega", "Flygon-Armor"],
 	},
 	flygonmega: {
+		tags: ["Insurgence"],
 		num: 330,
 		name: "Flygon-Mega",
 		baseSpecies: "Flygon",
@@ -8275,6 +8407,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Flygonite",
 	},
 	flygonarmor: {
+		tags: ["Insurgence"],
 		num: 330,
 		name: "Flygon-Armor",
 		baseSpecies: "Flygon",
@@ -8318,6 +8451,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Cacturne", "Cacturne-Mega"],
 	},
 	cacturnemega: {
+		tags: ["Insurgence"],
 		num: 332,
 		name: "Cacturne-Mega",
 		baseSpecies: "Cacturne",
@@ -8471,6 +8605,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Crawdaunt", "Crawdaunt-Mega"],
 	},
 	crawdauntmega: {
+		tags: ["Insurgence"],
 		num: 342,
 		name: "Crawdaunt-Mega",
 		baseSpecies: "Crawdaunt",
@@ -8580,6 +8715,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Feebas", "Feebas-Delta"],
 	},
 	feebasdelta: {
+		tags: ["Insurgence"],
 		num: 349,
 		name: "Feebas-Delta",
 		baseSpecies: "Feebas",
@@ -8610,6 +8746,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Milotic", "Milotic-Mega"],
 	},
 	miloticdelta: {
+		tags: ["Insurgence"],
 		num: 350,
 		name: "Milotic-Delta",
 		baseSpecies: "Milotic",
@@ -8628,6 +8765,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Milotic-Delta", "Milotic-Delta-Mega"],
 	},
 	miloticmega: {
+		tags: ["Insurgence"],
 		num: 350,
 		name: "Milotic-Mega",
 		baseSpecies: "Milotic",
@@ -8642,6 +8780,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Milotite",
 	},
 	miloticdeltamega: {
+		tags: ["Insurgence"],
 		num: 350,
 		name: "Milotic-Delta-Mega",
 		baseSpecies: "Milotic-Delta",
@@ -8902,6 +9041,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Snorunt", "Snorunt-Delta"],
 	},
 	snoruntdelta: {
+		tags: ["Insurgence"],
 		num: 361,
 		name: "Snorunt-Delta",
 		baseSpecies: "Snorunt",
@@ -8931,6 +9071,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Glalie", "Glalie-Mega"],
 	},
 	glaliedelta: {
+		tags: ["Insurgence"],
 		num: 362,
 		name: "Glalie-Delta",
 		baseSpecies: "Glalie",
@@ -8962,6 +9103,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Glalitite",
 	},
 	glaliedeltamega: {
+		tags: ["Insurgence"],
 		num: 362,
 		name: "Glalie-Delta-Mega",
 		baseSpecies: "Glalie-Delta",
@@ -9029,6 +9171,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Clamperl", "Clamperl-Delta"],
 	},
 	clamperldelta: {
+		tags: ["Insurgence"],
 		gen: 6,
 		num: 366,
 		name: "Clamperl-Delta",
@@ -9060,6 +9203,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Huntail", "Huntail-Delta"],
 	},
 	huntaildelta: {
+		tags: ["Insurgence"],
 		gen: 6,
 		num: 367,
 		name: "Huntail-Delta",
@@ -9092,6 +9236,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Gorebyss", "Gorebyss-Delta"],
 	},
 	gorebyssdelta: {
+		tags: ["Insurgence"],
 		gen: 6,
 		num: 368,
 		name: "Gorebyss-Delta",
@@ -9352,7 +9497,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Metagrossite",
 	},
 	metagrossdeltasmega: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 376,
 		name: "Metagross-Delta-S-Mega",
 		baseSpecies: "Metagross-Delta-S",
@@ -9368,7 +9513,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Delta Metagrossite Spider",
 	},
 	metagrossdeltarmega: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 376,
 		name: "Metagross-Delta-R-Mega",
 		baseSpecies: "Metagross-Delta-R",
@@ -9384,7 +9529,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Delta Metagrossite Ruin",
 	},
 	metagrossdeltarcrystal: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 376,
 		name: "Metagross-Delta-R-Crystal",
 		baseSpecies: "Metagross-Delta-R",
@@ -9428,7 +9573,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 230,
 		heightm: 1,
 		color: "Red",
-		tags: ["Sub-Legendary"],
+		tags: ["Sub-Legendary", "Insurgence"],
 		eggGroups: ["Undiscovered"],
 	},
 	regice: {
@@ -9459,7 +9604,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 175,
 		heightm: 1,
 		color: "Red",
-		tags: ["Sub-Legendary"],
+		tags: ["Sub-Legendary", "Insurgence"],
 		eggGroups: ["Undiscovered"],
 	},
 	registeel: {
@@ -9490,7 +9635,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 205,
 		heightm: 1,
 		color: "Red",
-		tags: ["Sub-Legendary"],
+		tags: ["Sub-Legendary", "Insurgence"],
 		eggGroups: ["Undiscovered"],
 	},
 	latias: {
@@ -9659,6 +9804,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Jirachi", "Jirachi-Mega"],
 	},
 	jirachimega: {
+		tags: ["Insurgence"],
 		num: 385,
 		name: "Jirachi-Mega",
 		baseSpecies: "Jirachi",
@@ -9750,6 +9896,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Turtwig", "Turtwig-Delta"],
 	},
 	turtwigdelta: {
+		tags: ["Insurgence"],
 		num: 387,
 		name: "Turtwig-Delta",
 		baseSpecies: "Turtwig",
@@ -9782,6 +9929,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Grotle", "Grotle-Delta"],
 	},
 	grotledelta: {
+		tags: ["Insurgence"],
 		num: 388,
 		name: "Grotle-Delta",
 		baseSpecies: "Grotle",
@@ -9815,6 +9963,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Torterra", "Torterra-Delta"],
 	},
 	torterradelta: {
+		tags: ["Insurgence"],
 		num: 389,
 		name: "Torterra-Delta",
 		baseSpecies: "Torterra",
@@ -10018,6 +10167,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Shinx", "Shinx-Delta"],
 	},
 	shinxdelta: {
+		tags: ["Insurgence"],
 		num: 403,
 		name: "Shinx-Delta",
 		baseSpecies: "Shinx",
@@ -10048,6 +10198,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Luxio", "Luxio-Delta"],
 	},
 	luxiodelta: {
+		tags: ["Insurgence"],
 		num: 404,
 		name: "Luxio-Delta",
 		baseSpecies: "Luxio",
@@ -10079,6 +10230,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Luxray", "Luxray-Delta"],
 	},
 	luxraydelta: {
+		tags: ["Insurgence"],
 		num: 405,
 		name: "Luxray-Delta",
 		baseSpecies: "Luxray",
@@ -10109,6 +10261,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Budew", "Budew-Delta"],
 	},
 	budewdelta: {
+		tags: ["Insurgence"],
 		num: 406,
 		name: "Budew-Delta",
 		baseSpecies: "Budew",
@@ -10140,6 +10293,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Roserade", "Roserade-Delta"],
 	},
 	roseradedelta: {
+		tags: ["Insurgence"],
 		num: 407,
 		name: "Roserade-Delta",
 		baseSpecies: "Roserade",
@@ -10303,6 +10457,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Combee", "Combee-Delta"],
 	},
 	combeedelta: {
+		tags: ["Insurgence"],
 		num: 415,
 		name: "Combee-Delta",
 		baseSpecies: "Combee",
@@ -10334,6 +10489,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Vespiquen", "Vespiquen-Delta"],
 	},
 	vespiquendelta: {
+		tags: ["Insurgence"],
 		num: 416,
 		name: "Vespiquen-Delta",
 		baseSpecies: "Vespiquen",
@@ -10476,6 +10632,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Ambipom", "Ambipom-Delta"],
 	},
 	ambipomdelta: {
+		tags: ["Insurgence"],
 		num: 424,
 		name: "Ambipom-Delta",
 		baseSpecies: "Ambipom",
@@ -10506,6 +10663,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Drifloon", "Drifloon-Delta"],
 	},
 	drifloondelta: {
+		tags: ["Insurgence"],
 		num: 425,
 		name: "Drifloon-Delta",
 		baseSpecies: "Drifloon",
@@ -10535,6 +10693,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Drifblim", "Drifblim-Delta"],
 	},
 	drifblimdelta: {
+		tags: ["Insurgence"],
 		num: 426,
 		name: "Drifblim-Delta",
 		baseSpecies: "Drifblim",
@@ -10564,6 +10723,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Buneary", "Buneary-Delta"],
 	},
 	bunearydelta: {
+		tags: ["Insurgence"],
 		gen: 6,
 		num: 427,
 		name: "Buneary-Delta",
@@ -10594,6 +10754,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Lopunny", "Lopunny-Mega"],
 	},
 	lopunnydelta: {
+		tags: ["Insurgence"],
 		num: 428,
 		name: "Lopunny-Delta",
 		baseSpecies: "Lopunny",
@@ -10625,6 +10786,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Lopunnite",
 	},
 	lopunnydeltamega: {
+		tags: ["Insurgence"],
 		num: 428,
 		name: "Lopunny-Delta-Mega",
 		baseSpecies: "Lopunny-Delta",
@@ -10655,6 +10817,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Mismagius", "Mismagius-Delta"],
 	},
 	mismagiusdelta: {
+		tags: ["Insurgence"],
 		num: 429,
 		name: "Mismagius-Delta",
 		baseSpecies: "Mismagius",
@@ -10830,6 +10993,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Chatot", "Chatot-Mega"],
 	},
 	chatotmega: {
+		tags: ["Insurgence"],
 		num: 441,
 		name: "Chatot-Mega",
 		baseSpecies: "Chatot",
@@ -10857,6 +11021,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Spiritomb", "Spiritomb-Mega"],
 	},
 	spiritombmega: {
+		tags: ["Insurgence"],
 		num: 442,
 		name: "Spiritomb-Mega",
 		baseSpecies: "Spiritomb",
@@ -10942,6 +11107,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Munchlax", "Munchlax-Delta"],
 	},
 	munchlaxdelta: {
+		tags: ["Insurgence"],
 		num: 446,
 		name: "Munchlax-Delta",
 		baseSpecies: "Munchlax",
@@ -10974,6 +11140,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Riolu", "Riolu-Delta"],
 	},
 	rioludelta: {
+		tags: ["Insurgence"],
 		num: 447,
 		name: "Riolu-Delta",
 		baseSpecies: "Riolu",
@@ -11007,6 +11174,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Lucario", "Lucario-Mega"],
 	},
 	lucariodelta: {
+		tags: ["Insurgence"],
 		num: 448,
 		name: "Lucario-Delta",
 		baseSpecies: "Lucario",
@@ -11041,6 +11209,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Lucarionite",
 	},
 	lucariodeltamega: {
+		tags: ["Insurgence"],
 		num: 448,
 		name: "Lucario-Delta-Mega",
 		baseSpecies: "Lucario-Delta",
@@ -11120,6 +11289,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Croagunk", "Croagunk-Delta"],
 	},
 	croagunkdelta: {
+		tags: ["Insurgence"],
 		num: 453,
 		name: "Croagunk-Delta",
 		baseSpecies: "Croagunk",
@@ -11149,6 +11319,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Toxicroak", "Toxicroak-Delta"],
 	},
 	toxicroakdelta: {
+		tags: ["Insurgence"],
 		num: 454,
 		name: "Toxicroak-Delta",
 		baseSpecies: "Toxicroak",
@@ -11328,6 +11499,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Tangrowth", "Tangrowth-Delta"],
 	},
 	tangrowthdelta: {
+		tags: ["Insurgence"],
 		num: 465,
 		name: "Tangrowth-Delta",
 		baseSpecies: "Tangrowth",
@@ -11361,6 +11533,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Electivire", "Electivire-Delta"],
 	},
 	electiviredelta: {
+		tags: ["Insurgence"],
 		num: 466,
 		name: "Electivire-Delta",
 		baseSpecies: "Electivire",
@@ -11394,6 +11567,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Magmortar", "Magmortar-Delta"],
 	},
 	magmortardelta: {
+		tags: ["Insurgence"],
 		num: 467,
 		name: "Magmortar-Delta",
 		baseSpecies: "Magmortar",
@@ -11441,6 +11615,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Yanmega", "Yanmega-Delta"],
 	},
 	yanmegadelta: {
+		tags: ["Insurgence"],
 		num: 469,
 		name: "Yanmega-Delta",
 		baseSpecies: "Yanmega",
@@ -11548,6 +11723,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Gallade", "Gallade-Mega"],
 	},
 	galladedelta: {
+		tags: ["Insurgence"],
 		num: 475,
 		name: "Gallade-Delta",
 		baseSpecies: "Gallade",
@@ -11582,6 +11758,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Galladite",
 	},
 	galladedeltamega: {
+		tags: ["Insurgence"],
 		num: 475,
 		name: "Gallade-Delta-Mega",
 		baseSpecies: "Gallade-Delta",
@@ -11642,6 +11819,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Froslass", "Froslass-Mega"],
 	},
 	froslassdelta: {
+		tags: ["Insurgence"],
 		num: 478,
 		name: "Froslass-Delta",
 		baseSpecies: "Froslass",
@@ -11661,6 +11839,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Froslass-Delta", "Froslass-Delta-Mega"],
 	},
 	froslassmega: {
+		tags: ["Insurgence"],
 		num: 478,
 		name: "Froslass-Mega",
 		baseSpecies: "Froslass",
@@ -11676,6 +11855,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Froslassite",
 	},
 	froslassdeltamega: {
+		tags: ["Insurgence"],
 		num: 478,
 		name: "Froslass-Delta-Mega",
 		baseSpecies: "Froslass-Delta",
@@ -12390,6 +12570,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Snivy", "Snivy-Delta"],
 	},
 	snivydelta: {
+		tags: ["Insurgence"],
 		num: 495,
 		name: "Snivy-Delta",
 		baseSpecies: "Snivy",
@@ -12422,6 +12603,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Servine", "Servine-Delta"],
 	},
 	servinedelta: {
+		tags: ["Insurgence"],
 		num: 496,
 		name: "Servine-Delta",
 		baseSpecies: "Servine",
@@ -12455,6 +12637,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Serperior", "Serperior-Delta"],
 	},
 	serperiordelta: {
+		tags: ["Insurgence"],
 		num: 497,
 		name: "Serperior-Delta",
 		baseSpecies: "Serperior",
@@ -12651,6 +12834,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Purrloin", "Purrloin-Delta"],
 	},
 	purrloindelta: {
+		tags: ["Insurgence"],
 		num: 509,
 		name: "Purrloin-Delta",
 		baseSpecies: "Purrloin",
@@ -12680,6 +12864,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Liepard", "Liepard-Delta"],
 	},
 	lieparddelta: {
+		tags: ["Insurgence"],
 		num: 510,
 		name: "Liepard-Delta",
 		baseSpecies: "Liepard",
@@ -12871,6 +13056,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Zebstrika", "Zebstrika-Mega"],
 	},
 	zebstrikamega: {
+		tags: ["Insurgence"],
 		num: 523,
 		name: "Zebstrika-Mega",
 		baseSpecies: "Zebstrika",
@@ -13147,6 +13333,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Leavanny", "Leavanny-Armor"],
 	},
 	leavannyarmor: {
+		tags: ["Insurgence"],
 		num: 542,
 		name: "Leavanny-Armor",
 		baseSpecies: "Leavanny",
@@ -13177,6 +13364,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Venipede", "Venipede-Delta"],
 	},
 	venipededelta: {
+		tags: ["Insurgence"],
 		num: 543,
 		name: "Venipede-Delta",
 		baseSpecies: "Venipede",
@@ -13207,6 +13395,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Whirlipede", "Whirlipede-Delta"],
 	},
 	whirlipededelta: {
+		tags: ["Insurgence"],
 		num: 544,
 		name: "Whirlipede-Delta",
 		baseSpecies: "Whirlipede",
@@ -13238,6 +13427,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Scolipede", "Scolipede-Delta"],
 	},
 	scolipededelta: {
+		tags: ["Insurgence"],
 		num: 545,
 		name: "Scolipede-Delta",
 		baseSpecies: "Scolipede",
@@ -13294,7 +13484,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Petilil", "Petilil-Delta-F", "Petilil-Delta-W"],
 	},
 	petilildeltaf: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 548,
 		name: "Petilil-Delta-F",
 		baseSpecies: "Petilil",
@@ -13310,7 +13500,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 	},
 	petilildeltaw: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 548,
 		name: "Petilil-Delta-W",
 		baseSpecies: "Petilil",
@@ -13343,7 +13533,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Lilligant", "Lilligant-Delta-F", "Lilligant-Delta-W", "Lilligant-Hisui"],
 	},
 	lilligantdeltaf: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 549,
 		name: "Lilligant-Delta-F",
 		baseSpecies: "Lilligant",
@@ -13361,7 +13551,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 	},
 	lilligantdeltaw: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 549,
 		name: "Lilligant-Delta-W",
 		baseSpecies: "Lilligant",
@@ -13505,6 +13695,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	darumakadelta: {
+		tags: ["Insurgence"],
 		num: 554,
 		name: "Darumaka-Delta",
 		baseSpecies: "Darumaka",
@@ -13581,6 +13772,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		battleOnly: "Darmanitan-Galar",
 	},
 	darmanitandelta: {
+		tags: ["Insurgence"],
 		num: 555,
 		name: "Darmanitan-Delta",
 		baseSpecies: "Darmanitan",
@@ -13609,6 +13801,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Maractus", "Maractus-Delta"],
 	},
 	maractusdelta: {
+		tags: ["Insurgence"],
 		num: 556,
 		name: "Maractus-Delta",
 		baseSpecies: "Maractus",
@@ -13636,7 +13829,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Dwebble", "Dwebble-Delta-B", "Dwebble-Delta-C"],
 	},
 	dwebbledeltab: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 557,
 		name: "Dwebble-Delta-B",
 		baseSpecies: "Dwebble",
@@ -13651,7 +13844,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 	},
 	dwebbledeltac: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 557,
 		name: "Dwebble-Delta-C",
 		baseSpecies: "Dwebble",
@@ -13681,7 +13874,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Crustle", "Crustle-Delta-B", "Crustle-Delta-C"],
 	},
 	crustledeltab: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 558,
 		name: "Crustle-Delta-B",
 		baseSpecies: "Crustle",
@@ -13697,7 +13890,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 	},
 	crustledeltac: {
-		gen: 6,
+		tags: ["Insurgence"],
 		num: 558,
 		name: "Crustle-Delta-C",
 		baseSpecies: "Crustle",
@@ -13727,6 +13920,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Scraggy", "Scraggy-Delta"],
 	},
 	scraggydelta: {
+		tags: ["Insurgence"],
 		num: 559,
 		name: "Scraggy-Delta",
 		baseSpecies: "Scraggy",
@@ -13756,6 +13950,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Scrafty", "Scrafty-Delta"],
 	},
 	scraftydelta: {
+		tags: ["Insurgence"],
 		num: 560,
 		name: "Scrafty-Delta",
 		baseSpecies: "Scrafty",
@@ -13810,6 +14005,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Mineral", "Amorphous"],
 	},
 	yamaskdelta: {
+		tags: ["Insurgence"],
 		num: 562,
 		name: "Yamask-Delta",
 		baseSpecies: "Yamask",
@@ -13839,6 +14035,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Cofagrigus", "Cofagrigus-Delta"],
 	},
 	cofagrigusdelta: {
+		tags: ["Insurgence"],
 		num: 563,
 		name: "Cofagrigus-Delta",
 		baseSpecies: "Cofagrigus",
@@ -13994,6 +14191,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Zoroark", "Zoroark-Mega", "Zoroark-Hisui"],
 	},
 	zoroarkmega: {
+		tags: ["Insurgence"],
 		num: 571,
 		name: "Zoroark-Mega",
 		baseSpecies: "Zoroark",
@@ -14097,6 +14295,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Gothitelle", "Gothitelle-Mega"],
 	},
 	gothitellemega: {
+		tags: ["Insurgence"],
 		num: 576,
 		name: "Gothitelle-Mega",
 		baseSpecies: "Gothitelle",
@@ -14126,6 +14325,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Solosis", "Solosis-Delta"],
 	},
 	solosisdelta: {
+		tags: ["Insurgence"],
 		num: 577,
 		name: "Solosis-Delta",
 		baseSpecies: "Solosis",
@@ -14156,6 +14356,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Duosion", "Duosion-Delta"],
 	},
 	duosiondelta: {
+		tags: ["Insurgence"],
 		num: 578,
 		name: "Duosion-Delta",
 		baseSpecies: "Duosion",
@@ -14187,6 +14388,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Reuniclus", "Reuniclus-Delta", "Reuniclus-Mega"],
 	},
 	reuniclusdelta: {
+		tags: ["Insurgence"],
 		num: 579,
 		name: "Reuniclus-Delta",
 		baseSpecies: "Reuniclus",
@@ -14202,6 +14404,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 	},
 	reuniclusmega: {
+		tags: ["Insurgence"],
 		num: 579,
 		name: "Reuniclus-Mega",
 		baseSpecies: "Reuniclus",
@@ -14322,6 +14525,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	emolgadelta: {
+		tags: ["Insurgence"],
 		num: 587,
 		name: "Emolga-Delta",
 		baseForme: "Delta",
@@ -14363,6 +14567,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Karrablast", "Karrablast-Delta"],
 	},
 	karrablastdelta: {
+		tags: ["Insurgence"],
 		num: 588,
 		name: "Karrablast-Delta",
 		baseSpecies: "Karrablast",
@@ -14393,6 +14598,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Escavalier", "Escavalier-Delta"],
 	},
 	escavalierdelta: {
+		tags: ["Insurgence"],
 		num: 589,
 		name: "Escavalier-Delta",
 		baseSpecies: "Escavalier",
@@ -14422,6 +14628,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Foongus", "Foongus-Delta"],
 	},
 	foongusdelta: {
+		tags: ["Insurgence"],
 		num: 590,
 		name: "Foongus-Delta",
 		baseSpecies: "Foongus",
@@ -14451,6 +14658,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Amoonguss", "Amoonguss-Delta"],
 	},
 	amoongussdelta: {
+		tags: ["Insurgence"],
 		num: 591,
 		name: "Amoonguss-Delta",
 		baseSpecies: "Amoonguss",
@@ -14673,6 +14881,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Litwick", "Litwick-Delta"],
 	},
 	litwickdelta: {
+		tags: ["Insurgence"],
 		num: 607,
 		name: "Litwick-Delta",
 		baseSpecies: "Litwick",
@@ -14703,6 +14912,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Lampent", "Lampent-Delta"],
 	},
 	lampentdelta: {
+		tags: ["Insurgence"],
 		num: 608,
 		name: "Lampent-Delta",
 		baseSpecies: "Lampent",
@@ -14735,6 +14945,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Chandelure", "Chandelure-Delta"],
 	},
 	chandeluredelta: {
+		tags: ["Insurgence"],
 		num: 609,
 		name: "Chandelure-Delta",
 		baseSpecies: "Chandelure",
@@ -14765,6 +14976,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Axew", "Axew-Delta"],
 	},
 	axewdelta: {
+		tags: ["Insurgence"],
 		num: 610,
 		name: "Axew-Delta",
 		baseSpecies: "Axew",
@@ -14795,6 +15007,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Fraxure", "Fraxure-Delta"],
 	},
 	fraxuredelta: {
+		tags: ["Insurgence"],
 		num: 611,
 		name: "Fraxure-Delta",
 		baseSpecies: "Fraxure",
@@ -14826,6 +15039,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Haxorus", "Haxorus-Mega", "Haxorus-Delta"],
 	},
 	haxorusdelta: {
+		tags: ["Insurgence"],
 		num: 612,
 		name: "Haxorus-Delta",
 		baseSpecies: "Haxorus",
@@ -14841,6 +15055,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 	},
 	haxorusmega: {
+		tags: ["Insurgence"],
 		num: 612,
 		name: "Haxorus-Mega",
 		baseSpecies: "Haxorus",
@@ -14894,6 +15109,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Cryogonal", "Cryogonal-Mega"],
 	},
 	cryogonalmega: {
+		tags: ["Insurgence"],
 		num: 615,
 		name: "Cryogonal-Mega",
 		baseSpecies: "Cryogonal",
@@ -14961,6 +15177,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Water 1", "Amorphous"],
 	},
 	stunfiskmega: {
+		tags: ["Insurgence"],
 		num: 618,
 		name: "Stunfisk-Mega",
 		baseSpecies: "Stunfisk",
@@ -15026,6 +15243,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Golett", "Golett-Delta"],
 	},
 	golettdelta: {
+		tags: ["Insurgence"],
 		num: 622,
 		name: "Golett-Delta",
 		baseSpecies: "Golett",
@@ -15057,6 +15275,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Golurk", "Golurk-Delta"],
 	},
 	golurkdelta: {
+		tags: ["Insurgence"],
 		num: 623,
 		name: "Golurk-Delta",
 		baseSpecies: "Golurk",
@@ -15087,6 +15306,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Pawniard", "Pawniard-Delta"],
 	},
 	pawniarddelta: {
+		tags: ["Insurgence"],
 		num: 624,
 		name: "Pawniard-Delta",
 		baseSpecies: "Pawniard",
@@ -15117,6 +15337,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Bisharp", "Bisharp-Mega", "Bisharp-Delta", "Bisharp-Delta-Mega"],
 	},
 	bisharpdelta: {
+		tags: ["Insurgence"],
 		num: 625,
 		name: "Bisharp-Delta",
 		baseSpecies: "Bisharp",
@@ -15134,6 +15355,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Bisharp-Delta", "Bisharp-Delta-Mega"],
 	},
 	bisharpmega: {
+		tags: ["Insurgence"],
 		num: 625,
 		name: "Bisharp-Mega",
 		baseSpecies: "Bisharp",
@@ -15148,6 +15370,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Bisharpite",
 	},
 	bisharpdeltamega: {
+		tags: ["Insurgence"],
 		num: 625,
 		name: "Bisharp-Delta-Mega",
 		baseSpecies: "Bisharp-Delta",
@@ -15258,6 +15481,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Heatmor", "Heatmor-Delta"],
 	},
 	heatmordelta: {
+		tags: ["Insurgence"],
 		num: 631,
 		name: "Heatmor-Delta",
 		baseSpecies: "Heatmor",
@@ -15296,6 +15520,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Deino", "Deino-Delta"],
 	},
 	deinodelta: {
+		tags: ["Insurgence"],
 		num: 633,
 		name: "Deino-Delta",
 		baseSpecies: "Deino",
@@ -15326,6 +15551,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Zweilous", "Zweilous-Delta"],
 	},
 	zweilousdelta: {
+		tags: ["Insurgence"],
 		num: 634,
 		name: "Zweilous-Delta",
 		baseSpecies: "Zweilous",
@@ -15361,6 +15587,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 			],
 	},
 	hydreigonmegafive: {
+		tags: ["Insurgence"],
 		num: 635,
 		name: "Hydreigon-Mega-Five",
 		baseSpecies: "Hydreigon",
@@ -15431,6 +15658,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredItem: "Hydreigonite",
 	},
 	hydreigondelta: {
+		tags: ["Insurgence"],
 		num: 635,
 		name: "Hydreigon-Delta",
 		baseSpecies: "Hydreigon",
@@ -15460,6 +15688,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Larvesta", "Larvesta-Delta"],
 	},
 	larvestadelta: {
+		tags: ["Insurgence"],
 		num: 636,
 		name: "Larvesta-Delta",
 		baseSpecies: "Larvesta",
@@ -15487,6 +15716,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Bug"],
 	},
 	volcaronadelta: {
+		tags: ["Insurgence"],
 		num: 637,
 		name: "Volcarona-Delta",
 		baseSpecies: "Volcarona",
@@ -15504,6 +15734,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Volcarona-Delta", "Volcarona-Delta-Armor"],
 	},
 	volcaronadeltaarmor: {
+		tags: ["Insurgence"],
 		gen: 6,
 		num: 637,
 		name: "Volcarona-Delta-Armor",
@@ -15649,6 +15880,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Zekrom", "Zekrom-Armor"],
 	},
 	zekromarmor: {
+		tags: ["Insurgence"],
 		num: 644,
 		name: "Zekrom-Armor",
 		baseSpecies: "Zekrom",
@@ -16015,6 +16247,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Froakie", "Froakie-Delta"],
 	},
 	froakiedelta: {
+		tags: ["Insurgence"],
 		num: 656,
 		name: "Froakie-Delta",
 		baseSpecies: "Froakie",
@@ -16047,6 +16280,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Frogadier", "Frogadier-Delta"],
 	},
 	frogadierdelta: {
+		tags: ["Insurgence"],
 		num: 657,
 		name: "Frogadier-Delta",
 		baseSpecies: "Frogadier",
@@ -16098,6 +16332,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		gen: 7,
 	},
 	greninjadelta: {
+		tags: ["Insurgence"],
 		num: 658,
 		name: "Greninja-Delta",
 		baseSpecies: "Greninja",
@@ -16767,6 +17002,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Amaura", "Amaura-Delta"],
 	},
 	amauradelta: {
+		tags: ["Insurgence"],
 		num: 698,
 		name: "Amaura-Delta",
 		baseSpecies: "Amaura",
@@ -16799,6 +17035,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Aurorus", "Aurorus-Delta"],
 	},
 	aurorusdelta: {
+		tags: ["Insurgence"],
 		num: 699,
 		name: "Aurorus-Delta",
 		baseSpecies: "Aurorus",
@@ -16878,6 +17115,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Goomy", "Goomy-Delta"],
 	},
 	goomydelta: {
+		tags: ["Insurgence"],
 		num: 704,
 		name: "Goomy-Delta",
 		baseSpecies: "Goomy",
@@ -16908,6 +17146,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Sliggoo", "Sliggoo-Delta", "Sliggoo-Hisui"],
 	},
 	sliggoodelta: {
+		tags: ["Insurgence"],
 		num: 705,
 		name: "Sliggoo-Delta",
 		baseSpecies: "Sliggoo",
@@ -16955,6 +17194,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Goodra", "Goodra-Delta", "Goodra-Hisui"],
 	},
 	goodradelta: {
+		tags: ["Insurgence"],
 		num: 706,
 		name: "Goodra-Delta",
 		baseSpecies: "Goodra",
@@ -17010,6 +17250,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Phantump", "Phantump-Delta"],
 	},
 	phantumpdelta: {
+		tags: ["Insurgence"],
 		num: 708,
 		name: "Phantump-Delta",
 		baseSpecies: "Phantump",
@@ -17039,6 +17280,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Trevenant", "Trevenant-Delta"],
 	},
 	trevenantdelta: {
+		tags: ["Insurgence"],
 		num: 709,
 		name: "Trevenant-Delta",
 		baseSpecies: "Trevenant",
@@ -17186,6 +17428,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Bergmite", "Bergmite-Delta"],
 	},
 	bergmitedelta: {
+		tags: ["Insurgence"],
 		num: 712,
 		name: "Bergmite-Delta",
 		baseSpecies: "Bergmite",
@@ -17215,6 +17458,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Avalugg", "Avalugg-Delta", "Avalugg-Hisui"],
 	},
 	avaluggdelta: {
+		tags: ["Insurgence"],
 		num: 713,
 		name: "Avalugg-Delta",
 		baseSpecies: "Avalugg",
@@ -17259,6 +17503,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Noibat", "Noibat-Delta"],
 	},
 	noibatdelta: {
+		tags: ["Insurgence"],
 		num: 714,
 		name: "Noibat-Delta",
 		baseSpecies: "Noibat",
@@ -17288,6 +17533,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Noivern", "Noivern-Delta"],
 	},
 	noiverndelta: {
+		tags: ["Insurgence"],
 		num: 715,
 		name: "Noivern-Delta",
 		baseSpecies: "Noivern",
@@ -17469,7 +17715,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		weightkg: 9,
 		eggGroups: ["Undiscovered"],
-		tags: ["Mythical"],
+		tags: ["Mythical", "Insurgence"],
 		otherFormes: ["Hoopa-Delta-Unleashed"],
 		formeOrder: ["Hoopa-Delta", "Hoopa-Delta-Unleashed"],
 	},
@@ -23906,7 +24152,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.3,
 		weightkg: 9,
 		color: "Blue",
-		tags: ["Mythical"],
+		tags: ["Mythical", "Insurgence"],
 		eggGroups: ["Undiscovered"],
 		gen: 6,
 	},
