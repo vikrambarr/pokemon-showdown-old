@@ -26,34 +26,10 @@ export const Formats: FormatList = [
 		section: "Insurgence",
 	},
 	{
-		name: "[Gen 9] Insurgence Legacy",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3672423/">National Dex AG</a>`,
-		],
-
+		name: "[Gen 9] Insurgence PoA",
+		desc: `National Dex AG with Insurgence mons, meant for drafts and tournaments.`,
 		mod: 'gen9',
 		ruleset: ['Standard NatDex'],
-	},
-	{
-		name: "[Gen 9] Insurgence HBF",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3672423/">National Dex AG</a>`,
-		],
-
-		mod: 'gen9',
-		ruleset: ['Standard NatDex'],
-	},
-	{
-		name: "[Gen 9] Insurgence NDL",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3672423/">National Dex AG</a>`,
-		],
-
-		mod: 'gen9',
-		ruleset: [
-			'Standard NatDex', 
-			'-Bulbasaur-Delta + Magical Leaf',
-		],
 	},
 	{
 		section: "Vanilla Gen 9 Singles",
