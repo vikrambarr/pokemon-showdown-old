@@ -18578,7 +18578,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Cute",
 	},
 	stealthcoal: {
-		num: 798,
+		num: 446,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -18588,14 +18588,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {reflectable: 1},
 		sideCondition: 'stealthcoal',
 		condition: {
-			onStart(side) {
+			// this is a side condition
+			onSideStart(side) {
 				this.add('-sidestart', side, 'move: Stealth Coal');
 			},
-			onSwitchIn(pokemon) {
+			onEntryHazard(pokemon) {
 				if (pokemon.hasItem('heavydutyboots')) return;
-				const fireHazard = this.dex.getActiveMove('Stealth Rock');
-				fireHazard.type = 'Fire';
-				const typeMod = this.clampIntRange(pokemon.runEffectiveness(fireHazard), -6, 6);
+				const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('stealthcoal')), -6, 6);
 				this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
 			},
 		},
