@@ -296,6 +296,12 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		end: "  The snow stopped.",
 		upkeep: "  (The snow is falling down.)",
 	},
+	newmoon: {
+		weatherName: "Darkness",
+		start: "  A dark shadow fell across the field",
+		end: "  The field has become light again.",
+		upkeep: "  (Darkness shrouds the battlefield.)",
+	},
 	desolateland: {
 		weatherName: "Intense Sun",
 		start: "  The sunlight turned extremely harsh!",
