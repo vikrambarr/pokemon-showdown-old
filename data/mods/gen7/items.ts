@@ -188,6 +188,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	typhlosionite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	deltavenusaurite: {
 		inherit: true,
 		isNonstandard: null,
