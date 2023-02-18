@@ -21900,7 +21900,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {def: 1}},
 		contestType: "Clever",
 	},
-	"lunarcannon": {
+	lunarcannon: {
 		num: -11,
 		accuracy: 100,
 		basePower: 105,
@@ -21913,7 +21913,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (attacker.removeVolatile(move.id)) {
 				return;
 			}
-			this.add('-prepare', attacker, move.name, defender);
+			this.add('-prepare', attacker, "Poltergeist", defender);
 			if (this.field.isWeather('newmoon')) {
 				this.attrLastMove('[still]');
 				this.addMove('-anim', attacker, move.name, defender);
