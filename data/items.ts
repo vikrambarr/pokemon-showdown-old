@@ -1731,9 +1731,9 @@ export const Items: {[itemid: string]: ItemData} = {
 	eevite: {
 		name: "Eevite",
 		spritenum: 752 + 33,
-		megaStone: "Eevee-Mega-Base",
-		megaEvolves: "Eevee-Pre-Mega",
-		itemUser: ["Eevee-Pre-Mega"],
+		megaStone: "Eevee-Mega",
+		megaEvolves: "Eevee",
+		itemUser: ["Eevee"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;

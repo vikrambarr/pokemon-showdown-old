@@ -28,8 +28,6 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 9] Insurgence PoA",
 		desc: `National Dex AG with Insurgence mons, meant for drafts and tournaments.`,
-		maxLevel: 120,
-		defaultLevel: 120,
 		mod: 'gen9',
 		ruleset: ['Standard NatDex', 'Adjust Level = 120'],
 	},
