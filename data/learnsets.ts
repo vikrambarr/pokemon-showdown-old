@@ -88092,9 +88092,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	hoopadeltaunleashed: {
-		eventOnly: true,
-	},
 	volcanion: {
 		learnset: {
 			bodypress: ["9M", "8M"],
