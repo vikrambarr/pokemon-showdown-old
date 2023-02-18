@@ -21913,7 +21913,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (attacker.removeVolatile(move.id)) {
 				return;
 			}
-			this.add('-prepare', attacker, "Poltergeist", defender);
+			this.add('-prepare', defender, "Poltergeist", attacker);
 			if (this.field.isWeather('newmoon')) {
 				this.attrLastMove('[still]');
 				this.addMove('-anim', attacker, move.name, defender);
