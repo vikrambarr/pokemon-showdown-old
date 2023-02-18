@@ -360,6 +360,14 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	darkrock: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	trickrock: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	diancite: {
 		inherit: true,
 		isNonstandard: null,

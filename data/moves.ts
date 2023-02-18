@@ -20367,6 +20367,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 					this.add('-activate', source, 'ability: Persistent', '[move] Trick Room');
 					return 7;
 				}
+				if (source?.hasItem('trickrock')) {
+					this.add('-activate', source, 'item: Trick Rock', effect);
+					return 8;
+				}
 				return 5;
 			},
 			onFieldStart(target, source) {

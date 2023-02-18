@@ -8447,4 +8447,22 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 8,
 		isNonstandard: "CAP",
 	},
+	darkrock: {
+		name: "Dark Rock",
+		spritenum: 752 + 8,
+		fling: {
+			basePower: 60,
+		},
+		num: -3,
+		gen: 6,
+	},
+	trickrock: {
+		name: "Trick Rock",
+		spritenum: 752 + 64,
+		fling: {
+			basePower: 60,
+		},
+		num: -4,
+		gen: 6,
+	},
 };
