@@ -21710,7 +21710,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.attrLastMove('[still]');
 		},
 		onPrepareHit(target, source) {
-			this.add('-anim', target, 'Spacial Rend', source);
+			this.add('-anim', target, 'Earthquake', source);
 			this.add('-anim', source, 'Hyper Voice', target);
 		},
 		secondary: null,
@@ -21727,6 +21727,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Poison Gas', target);
+			this.add('-anim', source, 'Sludge Wave', target);
+		},
 		onEffectiveness(typeMod, target, type) {
 			if (type === 'Steel') return 1;
 		},
@@ -21976,6 +21983,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Shift Gear', target);
+			this.add('-anim', source, 'Recover', target);
+		},
 		heal: [1, 2],
 		boosts: {
 			def: 1,
@@ -21995,6 +22009,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {},
+		onTryMove() {
+			this.attrLastMove('[still]');
+		},
+		onPrepareHit(target, source) {
+			this.add('-anim', source, 'Rain Dance', target);
+			this.add('-message', `${source.name} got it's groove on!`);
+			this.add('-anim', source, 'Rain Dance', target);
+			this.add('-anim', source, 'Rain Dance', target);
+			this.add('-anim', source, 'Rain Dance', target);
+		},
 		weather: 'NewMoon',
 		secondary: null,
 		target: "all",
