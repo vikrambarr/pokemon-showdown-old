@@ -602,6 +602,8 @@ export const commands: Chat.ChatCommands = {
 						tierDisplay = 'doubles tiers';
 					} else if (room.battle.format.includes('nationaldex')) {
 						tierDisplay = 'National Dex tiers';
+					} else if (room.battle.format.includes('insurgence')) {
+						tierDisplay = 'National Dex tiers';
 					}
 				}
 				if (!tierDisplay) tierDisplay = 'tiers';
