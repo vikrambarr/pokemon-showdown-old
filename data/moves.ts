@@ -12932,8 +12932,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onResidual(pokemon) {
 				if ((['newmoon']).includes(pokemon.effectiveWeather())) {
 					this.damage(pokemon.baseMaxhp / 2);
-				}
+				} else {
 					this.damage(pokemon.baseMaxhp / 4);
+				}
 			},
 		},
 		secondary: null,
