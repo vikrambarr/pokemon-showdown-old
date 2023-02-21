@@ -561,6 +561,16 @@ export class TeamValidator {
 			} else {
 				set.teraType = type.name;
 			}
+			
+		}
+		if (set.customMovetype) {
+			const type = dex.types.get(set.customMovetype);
+			if (!type.exists) {
+				problems.push(`${name}'s Custom Move type (${set.customMovetype}) is invalid.`);
+			} else {
+				set.customMovetype = type.name;
+			}
+			
 		}
 
 		let problem = this.checkSpecies(set, species, tierSpecies, setHas);
