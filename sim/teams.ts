@@ -108,9 +108,6 @@ export interface PokemonSet {
 	 * Tera Type
 	 */
 	teraType?: string;
-	/**
-	 * Custom Move type
-	 */
 	customMovetype?: string;
 }
 
@@ -183,7 +180,7 @@ export const Teams = new class Teams {
 			}
 
 			// level
-			if (set.level && set.level !== 120) {
+			if (set.level && set.level !== 100) {
 				buf += '|' + set.level;
 			} else {
 				buf += '|';
@@ -197,13 +194,12 @@ export const Teams = new class Teams {
 			}
 
 			if (set.pokeball || set.hpType || set.gigantamax ||
-				(set.dynamaxLevel !== undefined && set.dynamaxLevel !== 10) || set.teraType || set.customMovetype) {
+				(set.dynamaxLevel !== undefined && set.dynamaxLevel !== 10) || set.teraType) {
 				buf += ',' + (set.hpType || '');
 				buf += ',' + this.packName(set.pokeball || '');
 				buf += ',' + (set.gigantamax ? 'G' : '');
 				buf += ',' + (set.dynamaxLevel !== undefined && set.dynamaxLevel !== 10 ? set.dynamaxLevel : '');
 				buf += ',' + (set.teraType || '');
-				buf += ',' + (set.customMovetype || '');
 			}
 		}
 
@@ -335,7 +331,6 @@ export const Teams = new class Teams {
 				set.gigantamax = !!misc[3];
 				set.dynamaxLevel = (misc[4] ? Number(misc[4]) : 10);
 				set.teraType = misc[5];
-				set.customMovetype = misc[6];
 			}
 			if (j < 0) break;
 			i = j + 1;
