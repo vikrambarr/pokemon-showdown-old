@@ -108,7 +108,6 @@ export interface PokemonSet {
 	 * Tera Type
 	 */
 	teraType?: string;
-	customMovetype?: string;
 }
 
 export const Teams = new class Teams {
@@ -409,9 +408,6 @@ export const Teams = new class Teams {
 		if (set.teraType) {
 			out += `Tera Type: ${set.teraType}  \n`;
 		}
-		if (set.customMovetype) {
-			out += `Custom Move: ${set.customMovetype}  \n`;
-		}
 
 		// stats
 		if (!hideStats) {
@@ -496,9 +492,6 @@ export const Teams = new class Teams {
 		} else if (line.startsWith('Tera Type: ')) {
 			line = line.slice(11);
 			set.teraType = line;
-		} else if (line.startsWith('Custom Move: ')) {
-			line = line.slice(13);
-			set.customMovetype = line;
 		} else if (line === 'Gigantamax: Yes') {
 			set.gigantamax = true;
 		} else if (line.startsWith('EVs: ')) {
