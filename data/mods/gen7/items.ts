@@ -128,7 +128,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	deltablastoiseite: {
+	deltablastoisinite: {
 		inherit: true,
 		isNonstandard: null,
 	},
