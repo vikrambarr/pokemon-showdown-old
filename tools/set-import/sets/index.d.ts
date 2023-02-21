@@ -16,7 +16,6 @@ export interface PokemonSet<T = string> {
 	happiness?: number;
 	pokeball?: T;
 	hpType?: string;
-	customMovetype?: string;
 }
 export declare type DeepPartial<T> = {
 	[P in keyof T]?: T[P] extends Array<infer I> ? Array<DeepPartial<I>> : DeepPartial<T[P]>;
