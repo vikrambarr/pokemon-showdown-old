@@ -390,7 +390,7 @@ export const Teams = new class Teams {
 		}
 
 		// details
-		if (set.level && set.level !== 120) {
+		if (set.level && set.level !== 100) {
 			out += `Level: ${set.level}  \n`;
 		}
 		if (set.shiny) {
