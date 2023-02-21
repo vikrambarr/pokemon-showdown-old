@@ -66,6 +66,8 @@ export class Pokemon {
 	hpType: string;
 	hpPower: number;
 
+	customMovetype: string;
+
 	/**
 	 * Index of `pokemon.side.pokemon` and `pokemon.side.active`, which are
 	 * guaranteed to be the same for active pokemon. Note that this isn't
@@ -376,6 +378,8 @@ export class Pokemon {
 		const hpData = this.battle.dex.getHiddenPower(this.set.ivs);
 		this.hpType = set.hpType || hpData.type;
 		this.hpPower = hpData.power;
+		
+		this.customMovetype = set.customMovetype;
 
 		this.baseHpType = this.hpType;
 		this.baseHpPower = this.hpPower;
@@ -922,7 +926,11 @@ export class Pokemon {
 			if (moveSlot.id === 'hiddenpower') {
 				moveName = 'Hidden Power ' + this.hpType;
 				if (this.battle.gen < 6) moveName += ' ' + this.hpPower;
-			} else if (moveSlot.id === 'return' || moveSlot.id === 'frustration') {
+			}
+			else if (moveSlot.id === 'custommove') {
+				moveName = 'Custom Move' + this.customMovetype;
+			}
+			 else if (moveSlot.id === 'return' || moveSlot.id === 'frustration') {
 				const basePowerCallback = this.battle.dex.moves.get(moveSlot.id).basePowerCallback as (pokemon: Pokemon) => number;
 				moveName += ' ' + basePowerCallback(this);
 			}
