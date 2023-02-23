@@ -6308,7 +6308,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (!randomMove) {
 				return false;
 			}
+			this.add('-anim', pokemon, 'Autotomize', target);
+			this.add('-message', `Watch out! Susan is feral!`);
 			this.actions.useMove(randomMove, pokemon, target);
+
 		},
 		name: "Feral",
 		rating: 3,
