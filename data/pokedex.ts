@@ -22854,7 +22854,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Dark", "Fighting"],
 		gender: "F",
 		baseStats: {hp: 65, atk: 100, def: 80, spa: 75, spd: 50, spe: 130},
-		abilities: {0: "Feral"},
+		abilities: {0: "Intimidated", H: "Feral"},
 		heightm: 0.5,
 		weightkg: 3,
 		color: "Black",

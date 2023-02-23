@@ -6277,7 +6277,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: -41,
 	},
-	feral: {
+	intimidated: {
 		onBasePowerPriority: 21,
 		onBasePower(basePower, pokemon) {
 			let boosted = true;
@@ -6291,13 +6291,28 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 			}
 			if (boosted) {
-				this.debug('Feral boost');
+				this.debug('intimidated boost');
 				return this.chainModify(1.5);
 			}
 		},
-		name: "Feral",
+		name: "Intimidated",
 		rating: 2.5,
 		num: -42,
+	},
+	feral: {
+		onAfterMove(pokemon, target, move) {
+			const moves = ['bite', 'scratch', 'growl', 'pounce', 'babydolleyes', 'copycat', 'assist', 'cut', 'defensecurl', 'feint', 'furyswipes', 'flail', 'howl', 'lick', 'lockon', 'meanlook', 'powertrip', 'agility', 'honeclaws', 'screech', 'slash', 'snarl', 'spite', 'struggle', 'swagger', 'tackle', 'work up'];
+			if (pokemon === target) return;
+			let randomMove = '';
+			if (moves.length) randomMove = this.sample(moves);
+			if (!randomMove) {
+				return false;
+			}
+			this.actions.useMove(randomMove, pokemon, target);
+		},
+		name: "Feral",
+		rating: 3,
+		num: -43,
 	},
 
 };
