@@ -6277,5 +6277,27 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: -41,
 	},
+	feral: {
+		onBasePowerPriority: 21,
+		onBasePower(basePower, pokemon) {
+			let boosted = true;
+			for (const target of this.getAllActive()) {
+				if (target === pokemon) continue;
+				const action = this.queue.willMove(target);
+				const move = action?.choice === 'move' ? action.move : null;
+				if (!move || (move.category === 'Status' && move.id !== 'mefirst') || target.volatiles['mustrecharge']) {
+					boosted = false;
+					break;
+				}
+			}
+			if (boosted) {
+				this.debug('Feral boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Feral",
+		rating: 2.5,
+		num: -42,
+	},
 
 };
