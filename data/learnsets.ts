@@ -34,6 +34,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	bulbasaurdelta: {
 		learnset: {
 			achillesheel: ["6M"],
+			custommove: ["6M"],
 			tackle: ["6L1"],
 			babydolleyes: ["6L3"],
 			confusion: ["6L7"],
